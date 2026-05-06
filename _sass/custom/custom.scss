@@ -117,24 +117,67 @@ h1, h2, h3, h4, h5, h6 {
   background-color: var(--actian-bg-reverse) !important;
   border-bottom: none;
   box-shadow: 0 1px 0 rgba(255,255,255,0.08);
+  padding: 0 !important;
 
   .site-title {
+    display: flex !important;
+    align-items: center;
+    gap: 0;
     color: #FFFFFF !important;
-    font-size: 15px;
-    font-weight: 600;
-    letter-spacing: 0.01em;
+    text-decoration: none !important;
+    border-bottom: none !important;
+    padding: 12px 0;
 
-    &::before {
-      content: '';
+    // Logo mark — geometric Actian "A" mountain shape
+    .actian-logo-mark {
       display: inline-block;
-      width: 8px;
-      height: 8px;
-      background: var(--actian-brand-primary);
-      border-radius: 2px;
+      width: 30px;
+      height: 27px;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 36'%3E%3Cpolygon points='20,2 2,34 38,34' fill='white' opacity='0.9'/%3E%3Cpolygon points='20,12 11,34 29,34' fill='%2312131F'/%3E%3C/svg%3E");
+      background-size: contain;
+      background-repeat: no-repeat;
       margin-right: 10px;
-      vertical-align: middle;
-      position: relative;
-      top: -1px;
+      flex-shrink: 0;
+    }
+
+    // "ACTIAN" wordmark + "a division of HCLSoftware"
+    .actian-wordmark {
+      display: flex;
+      flex-direction: column;
+      margin-right: 14px;
+      line-height: 1;
+
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      color: #FFFFFF;
+    }
+
+    .actian-division {
+      display: block;
+      font-size: 9px;
+      font-weight: 400;
+      letter-spacing: 0.02em;
+      color: rgba(255,255,255,0.45);
+      margin-top: 3px;
+      text-transform: none;
+    }
+
+    // "|" separator
+    .actian-header-sep {
+      color: rgba(255,255,255,0.2);
+      margin: 0 14px;
+      font-size: 20px;
+      font-weight: 200;
+      line-height: 1;
+    }
+
+    // "Content Guidelines" label
+    .actian-header-title {
+      font-size: 15px;
+      font-weight: 500;
+      color: rgba(255,255,255,0.85);
+      letter-spacing: 0.01em;
     }
   }
 
@@ -253,16 +296,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 // ── Do / Don't tables ──
-// Applied via JS in head_custom.html
-.do-dont-table {
-  box-shadow: none;
-  border: none;
+// Applied via JS in head_custom.html — nested inside .main-content for
+// higher specificity (0,2,0) to beat the general .main-content table (0,1,1)
+.main-content .do-dont-table {
+  box-shadow: none !important;
+  border: none !important;
   overflow: visible;
 
   thead th:first-child {
-    background: var(--actian-success-bg);
-    color: var(--actian-success);
-    border-bottom: 2px solid var(--actian-success);
+    background: var(--actian-success-bg) !important;
+    color: var(--actian-success) !important;
+    border-bottom: 2px solid var(--actian-success) !important;
 
     &::before {
       content: '✓ ';
@@ -271,9 +315,9 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   thead th:last-child {
-    background: var(--actian-error-bg);
-    color: var(--actian-error);
-    border-bottom: 2px solid var(--actian-error);
+    background: var(--actian-error-bg) !important;
+    color: var(--actian-error) !important;
+    border-bottom: 2px solid var(--actian-error) !important;
 
     &::before {
       content: '✕ ';
@@ -283,20 +327,19 @@ h1, h2, h3, h4, h5, h6 {
 
   tbody {
     tr td:first-child {
-      background: var(--actian-success-bg-light);
-      border-left: 3px solid var(--actian-success);
-      color: var(--actian-text-primary);
+      background: var(--actian-success-bg-light) !important;
+      border-left: 3px solid var(--actian-success) !important;
+      color: var(--actian-text-primary) !important;
     }
 
     tr td:last-child {
-      background: var(--actian-error-bg-light);
-      border-left: 3px solid var(--actian-error);
-      color: var(--actian-text-tertiary);
-      text-decoration: none;
+      background: var(--actian-error-bg-light) !important;
+      border-left: 3px solid var(--actian-error) !important;
+      color: var(--actian-text-tertiary) !important;
     }
 
-    tr:hover td:first-child { background: #e6ffe6; }
-    tr:hover td:last-child  { background: #fff0ed; }
+    tr:hover td:first-child { background: #e6ffe6 !important; }
+    tr:hover td:last-child  { background: #fff0ed !important; }
   }
 }
 

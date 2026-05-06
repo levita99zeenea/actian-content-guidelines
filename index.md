@@ -56,43 +56,43 @@ Use the sidebar to navigate to any section, or search by keyword using the searc
 
 | # | Component |
 |---|---|
-| 1 | [Global guidelines](01-global-guidelines) — voice, tone, words to avoid |
-| 2 | [Buttons](02-buttons) |
-| 3 | [Links](03-links) |
-| 4 | [Checkboxes](04-checkboxes) |
-| 5 | [Dropdown / Select](05-dropdown-select) |
-| 6 | [Filters](06-filters) |
-| 7 | [Cards](07-cards) |
-| 8 | [Empty and system states](08-empty-and-system-states) |
-| 9 | [Forms](09-forms) |
-| 10 | [Sticky footer](10-sticky-footer) |
-| 11 | [Modal](11-modal) |
-| 12 | [Search](12-search) |
-| 13 | [Text input](13-text-input) |
-| 14 | [Notifications and messaging](14-notifications-and-messaging) |
-| 15 | [Navigation](15-navigation) |
-| 16 | [Loading and progress](16-loading-and-progress) |
-| 17 | [Tags, badges, and status indicators](17-tags-badges-status-indicators) |
-| 18 | [Dialogs and confirmations](18-dialogs-and-confirmations) |
-| 19 | [Onboarding](19-onboarding) |
-| 20 | [What's new](20-whats-new) |
-| 21 | [Alerts](21-alerts) |
-| 22 | [Combo box](22-combo-box) |
-| 23 | [Data tables](23-data-tables) |
-| 24 | [Grid and spacing](24-grid-and-spacing) |
-| 25 | [Icons](25-icons) |
-| 26 | [Inline toast](26-inline-toast) |
-| 27 | [Lineage-specific UI](27-lineage-specific-ui) |
-| 28 | [Multi-select](28-multi-select) |
-| 29 | [Object preview panels](29-object-preview-panels) |
-| 30 | [Popover](30-popover) |
-| 31 | [Related content panels](31-related-content-panels) |
-| 32 | [Stepper](32-stepper) |
-| 33 | [Switch](33-switch) |
-| 34 | [Tables](34-tables) |
-| 35 | [Uploads](35-uploads) |
-| 36 | [Validation messages](36-validation-messages) |
-| 37 | [Wizards](37-wizards) |
+| 1 | [Global guidelines](global-guidelines) — voice, tone, words to avoid |
+| 2 | [Buttons](buttons) |
+| 3 | [Links](links) |
+| 4 | [Checkboxes](checkboxes) |
+| 5 | [Dropdown / Select](dropdown-select) |
+| 6 | [Filters](filters) |
+| 7 | [Cards](cards) |
+| 8 | [Empty and system states](empty-and-system-states) |
+| 9 | [Forms](forms) |
+| 10 | [Sticky footer](sticky-footer) |
+| 11 | [Modal](modal) |
+| 12 | [Search](search) |
+| 13 | [Text input](text-input) |
+| 14 | [Notifications and messaging](notifications-and-messaging) |
+| 15 | [Navigation](navigation) |
+| 16 | [Loading and progress](loading-and-progress) |
+| 17 | [Tags, badges, and status indicators](tags-badges-status-indicators) |
+| 18 | [Dialogs and confirmations](dialogs-and-confirmations) |
+| 19 | [Onboarding](onboarding) |
+| 20 | [What's new](whats-new) |
+| 21 | [Alerts](alerts) |
+| 22 | [Combo box](combo-box) |
+| 23 | [Data tables](data-tables) |
+| 24 | [Grid and spacing](grid-and-spacing) |
+| 25 | [Icons](icons) |
+| 26 | [Inline toast](inline-toast) |
+| 27 | [Lineage-specific UI](lineage-specific-ui) |
+| 28 | [Multi-select](multi-select) |
+| 29 | [Object preview panels](object-preview-panels) |
+| 30 | [Popover](popover) |
+| 31 | [Related content panels](related-content-panels) |
+| 32 | [Stepper](stepper) |
+| 33 | [Switch](switch) |
+| 34 | [Tables](tables) |
+| 35 | [Uploads](uploads) |
+| 36 | [Validation messages](validation-messages) |
+| 37 | [Wizards](wizards) |
 
 ---
 

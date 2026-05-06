@@ -1,4 +1,4 @@
----
+﻿---
 title: "About"
 nav_order: 40
 ---
@@ -16,14 +16,14 @@ UI writing standards for the Actian Data Intelligence platform. Source of truth 
 37 section files, one per UI component or topic area, plus an index and format spec:
 
 ```
-index.md                             ← site homepage
-00-index.md                          ← master index and query guide
-format-spec.md                       ← Word and Figma output spec
-01-global-guidelines.md              ← voice, tone, words to avoid
-02-buttons.md … 37-wizards.md        ← component sections
+index.md                             â† site homepage
+index.md                          â† master index and query guide
+format-spec.md                       â† Word and Figma output spec
+global-guidelines.md              â† voice, tone, words to avoid
+buttons.md â€¦ wizards.md        â† component sections
 ```
 
-Each section follows: **When to use → Style → Behavior → Do/Don't**
+Each section follows: **When to use â†’ Style â†’ Behavior â†’ Do/Don't**
 
 ---
 
@@ -55,4 +55,4 @@ With the **Actian Design System Claude plugin** installed:
 
 All guidelines follow IBM Style conventions and are written in sentence case throughout.
 
-**Source Word document:** `Actian_Content_Guidelines_Claude3.docx` (maintainer's local copy — not committed to this repo)
+**Source Word document:** `Actian_Content_Guidelines_Claude3.docx` (maintainer's local copy â€” not committed to this repo)

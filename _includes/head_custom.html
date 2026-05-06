@@ -3,10 +3,26 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
 
-<!-- Do / Don't table class detection -->
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-    var tables = document.querySelectorAll('.main-content table');
+
+    // ── Header: inject Actian logo + wordmark + separator ──
+    var siteTitle = document.querySelector('.site-title');
+    if (siteTitle) {
+      var titleText = siteTitle.textContent.trim();
+      siteTitle.innerHTML =
+        '<span class="actian-logo-mark" aria-hidden="true"></span>' +
+        '<span class="actian-wordmark">ACTIAN' +
+          '<span class="actian-division">a division of HCLSoftware</span>' +
+        '</span>' +
+        '<span class="actian-header-sep" aria-hidden="true">|</span>' +
+        '<span class="actian-header-title">' + titleText + '</span>';
+    }
+
+    // ── Do / Don't table detection ──
+    // Finds tables whose first two headers are Do/Don't (or Use/Avoid)
+    // and adds .do-dont-table class so CSS colours them correctly.
+    var tables = document.querySelectorAll('table');
     tables.forEach(function (table) {
       var headers = table.querySelectorAll('thead th');
       if (headers.length >= 2) {
@@ -21,5 +37,6 @@
         }
       }
     });
+
   });
 </script>
