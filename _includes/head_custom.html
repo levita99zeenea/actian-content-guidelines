@@ -20,17 +20,20 @@
     }
 
     // ── Do / Don't table detection ──
-    // Finds tables whose first two headers are Do/Don't (or Use/Avoid)
-    // and adds .do-dont-table class so CSS colours them correctly.
-    var tables = document.querySelectorAll('table');
-    tables.forEach(function (table) {
+    // Jekyll's Kramdown converts the apostrophe in "Don't" to a curly
+    // right-single-quote (U+2019). Normalise before comparing so the
+    // class is applied regardless of which apostrophe variant is used.
+    function normalizeApostrophes(s) {
+      return s.replace(/[‘’‚‛]/g, "'");
+    }
+
+    document.querySelectorAll('table').forEach(function (table) {
       var headers = table.querySelectorAll('thead th');
       if (headers.length >= 2) {
-        var first  = headers[0].textContent.trim().toLowerCase();
-        var second = headers[1].textContent.trim().toLowerCase();
+        var first  = normalizeApostrophes(headers[0].textContent.trim().toLowerCase());
+        var second = normalizeApostrophes(headers[1].textContent.trim().toLowerCase());
         if (
           (first === 'do'  && second === "don't") ||
-          (first === 'do'  && second === 'dont')  ||
           (first === 'use' && second === 'avoid')
         ) {
           table.classList.add('do-dont-table');

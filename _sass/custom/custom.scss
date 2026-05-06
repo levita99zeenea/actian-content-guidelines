@@ -460,6 +460,16 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: var(--actian-radius-md);
     padding: 16px 20px;
     box-shadow: var(--actian-shadow-xs);
+    display: block;
+    text-decoration: none !important;
+    border-bottom: none !important;
+    transition: border-color 0.15s, box-shadow 0.15s, background 0.15s;
+
+    &:hover {
+      border-color: var(--actian-brand-primary);
+      box-shadow: var(--actian-shadow-sm);
+      background: var(--actian-brand-secondary);
+    }
 
     .rule-label {
       font-size: 10px;
