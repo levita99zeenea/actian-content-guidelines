@@ -21,3 +21,4 @@ The What's New section summarizes recent product changes. It is product communic
 |---|---|
 | Added support for bulk dataset import. | We've supercharged the import experience with powerful new bulk capabilities! |
 | Fixed an issue where filters were not preserved on page reload. | Bug fixes and performance improvements. |
+{: .do-dont-table}

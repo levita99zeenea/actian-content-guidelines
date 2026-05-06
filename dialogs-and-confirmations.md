@@ -24,6 +24,7 @@ Before irreversible or destructive actions (delete, remove, reset).
 | Do | Don't |
 |---|---|
 | Delete connection / This will remove the connection and cannot be undone. / Delete \| Cancel | Warning! Are you sure? This action is permanent. / Yes \| No |
+{: .do-dont-table}
 
 ---
 

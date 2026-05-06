@@ -37,3 +37,4 @@ Alerts communicate important information that requires the user's attention. The
 | Your connection expired. Log in again to continue. | Alert: There has been an authentication error. Please log in. |
 | Some datasets are read-only. Contact your administrator to request edit access. | Warning: Permission issue detected. |
 | Import failed. Check the file format and try again. | Error. |
+{: .do-dont-table}

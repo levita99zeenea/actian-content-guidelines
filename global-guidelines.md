@@ -27,6 +27,7 @@ Actian Data Intelligence speaks to data professionals: engineers, analysts, and 
 | Export the dataset | The dataset will be exported |
 | Something went wrong | We're sorry, something went wrong |
 | Log in | Sign in / Signin |
+{: .do-dont-table}
 
 ---
 

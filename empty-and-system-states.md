@@ -29,6 +29,7 @@ System states communicate the current condition of the platform or a specific vi
 |---|---|
 | No items found / Add your first dataset to start exploring. | No results. |
 | Nothing here yet / Create a connection to get started. | There are no items to display at this time. |
+{: .do-dont-table}
 
 ### Example
 

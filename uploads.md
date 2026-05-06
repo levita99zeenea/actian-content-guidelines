@@ -32,3 +32,4 @@ When users need to import data files, certificates, configuration files, or atta
 | Drag and drop a CSV file, or browse. | Click here to upload your file. |
 | Accepts .csv, .json, and .xlsx files. | Only certain file types are supported. |
 | data.csv — File exceeds the 50 MB size limit. | Upload failed. |
+{: .do-dont-table}

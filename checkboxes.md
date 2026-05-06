@@ -35,6 +35,7 @@ Allow users to select by clicking either the box or the label.
 | Enable notifications | Notifications enabled (noun-first label) |
 | Show archived items | Don't hide archived items |
 | Agree to terms and conditions | Agreement with terms and conditions |
+{: .do-dont-table}
 
 ---
 

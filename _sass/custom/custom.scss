@@ -113,44 +113,47 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 // ── Site Header ──
+// White background matching Actian documentation style
 .site-header {
-  background-color: var(--actian-bg-reverse) !important;
-  border-bottom: none;
-  box-shadow: 0 1px 0 rgba(255,255,255,0.08);
+  background-color: #FFFFFF !important;
+  border-bottom: 1px solid var(--actian-border) !important;
+  box-shadow: var(--actian-shadow-xs) !important;
   padding: 0 !important;
 
   .site-title {
     display: flex !important;
     align-items: center;
     gap: 0;
-    color: #FFFFFF !important;
+    color: var(--actian-text-primary) !important;
     text-decoration: none !important;
     border-bottom: none !important;
-    padding: 12px 0;
+    padding: 10px 0;
 
-    // Logo mark — geometric Actian "A" mountain shape
+    // Logo mark — two-peak mountain mark approximating the Actian logo
+    // Left peak: dark navy lines; right peak: cyan lines (rendered on top)
     .actian-logo-mark {
       display: inline-block;
-      width: 30px;
-      height: 27px;
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 36'%3E%3Cpolygon points='20,2 2,34 38,34' fill='white' opacity='0.9'/%3E%3Cpolygon points='20,12 11,34 29,34' fill='%2312131F'/%3E%3C/svg%3E");
+      width: 42px;
+      height: 36px;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 56 48' fill='none'%3E%3Cpolyline points='2,44 22,4 28,44' stroke='%231a237e' stroke-width='3.5' stroke-linejoin='round'/%3E%3Cpolyline points='7,44 22,9 25,44' stroke='%23283593' stroke-width='3.5' stroke-linejoin='round'/%3E%3Cpolyline points='12,44 22,14 22,44' stroke='%233949ab' stroke-width='3.5' stroke-linejoin='round'/%3E%3Cpolyline points='28,44 40,8 54,44' stroke='%230277bd' stroke-width='3.5' stroke-linejoin='round'/%3E%3Cpolyline points='30,44 40,13 51,44' stroke='%230288d1' stroke-width='3.5' stroke-linejoin='round'/%3E%3Cpolyline points='32,44 40,18 48,44' stroke='%2300b0ff' stroke-width='3.5' stroke-linejoin='round'/%3E%3C/svg%3E");
       background-size: contain;
       background-repeat: no-repeat;
-      margin-right: 10px;
+      background-position: center;
+      margin-right: 12px;
       flex-shrink: 0;
     }
 
-    // "ACTIAN" wordmark + "a division of HCLSoftware"
+    // "ACTIAN" wordmark + "a division of HCLSoftware" sub-text
     .actian-wordmark {
       display: flex;
       flex-direction: column;
-      margin-right: 14px;
+      justify-content: center;
+      margin-right: 16px;
       line-height: 1;
-
-      font-size: 13px;
+      font-size: 15px;
       font-weight: 700;
-      letter-spacing: 0.1em;
-      color: #FFFFFF;
+      letter-spacing: 0.08em;
+      color: var(--actian-text-primary);
     }
 
     .actian-division {
@@ -158,48 +161,48 @@ h1, h2, h3, h4, h5, h6 {
       font-size: 9px;
       font-weight: 400;
       letter-spacing: 0.02em;
-      color: rgba(255,255,255,0.45);
-      margin-top: 3px;
+      color: var(--actian-text-tertiary);
+      margin-top: 4px;
       text-transform: none;
     }
 
-    // "|" separator
+    // Vertical separator bar
     .actian-header-sep {
-      color: rgba(255,255,255,0.2);
-      margin: 0 14px;
-      font-size: 20px;
-      font-weight: 200;
-      line-height: 1;
+      width: 1px;
+      height: 28px;
+      background: var(--actian-border);
+      margin: 0 16px;
+      flex-shrink: 0;
     }
 
-    // "Content Guidelines" label
+    // "Content Guidelines" product label
     .actian-header-title {
       font-size: 15px;
-      font-weight: 500;
-      color: rgba(255,255,255,0.85);
+      font-weight: 600;
+      color: var(--actian-brand-primary);
       letter-spacing: 0.01em;
     }
   }
 
   .site-button,
   .site-nav .nav-list-link {
-    color: rgba(255,255,255,0.75) !important;
-    &:hover { color: #FFFFFF !important; }
+    color: var(--actian-text-secondary) !important;
+    &:hover { color: var(--actian-brand-primary) !important; }
   }
 }
 
 // ── Search ──
 .search-input {
-  background: rgba(255,255,255,0.1) !important;
-  color: #FFFFFF !important;
-  border-color: rgba(255,255,255,0.2) !important;
+  background: var(--actian-bg-grey-2) !important;
+  color: var(--actian-text-secondary) !important;
+  border-color: var(--actian-border) !important;
   border-radius: var(--actian-radius);
 
-  &::placeholder { color: rgba(255,255,255,0.5) !important; }
+  &::placeholder { color: var(--actian-text-tertiary) !important; }
   &:focus {
-    background: rgba(255,255,255,0.15) !important;
+    background: #FFFFFF !important;
     border-color: var(--actian-brand-primary) !important;
-    box-shadow: 0 0 0 2px rgba(5,80,220,0.3) !important;
+    box-shadow: 0 0 0 2px rgba(5,80,220,0.15) !important;
   }
 }
 
@@ -410,9 +413,9 @@ h1, h2, h3, h4, h5, h6 {
 // ── Aux links (GitHub top-right) ──
 .aux-nav-list-item a {
   font-size: 12px;
-  color: rgba(255,255,255,0.65) !important;
+  color: var(--actian-text-tertiary) !important;
   font-weight: 500;
-  &:hover { color: #FFFFFF !important; }
+  &:hover { color: var(--actian-brand-primary) !important; }
 }
 
 // ── Footer ──

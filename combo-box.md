@@ -34,3 +34,4 @@ A combo box combines a text input with a dropdown list, allowing users to either
 |---|---|
 | Search or select a data source | Type to filter... |
 | No results found for "xyz" | (empty dropdown) |
+{: .do-dont-table}

@@ -32,3 +32,4 @@ Validation messages appear inline with form fields to help users correct input e
 | Password must be 8–32 characters. | Password does not meet requirements. |
 | This name is already in use. Choose a different name. | Duplicate entry error. |
 | Select at least one data domain. | You must make a selection. |
+{: .do-dont-table}

@@ -37,6 +37,7 @@ Buttons trigger actions. They are the primary mechanism for users to submit form
 | Delete dataset | Delete |
 | Add connection | Add a connection |
 | Save changes | Save Changes |
+{: .do-dont-table}
 
 ---
 

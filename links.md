@@ -45,6 +45,7 @@ Link text should clearly describe the destination or action. Avoid vague text th
 | Download report | Get report |
 | Explore features | Click to learn more |
 | View our services | Click here to view our list of services |
+{: .do-dont-table}
 
 ## Action-oriented language
 
@@ -61,3 +62,4 @@ Link only the specific, relevant portion of text. Avoid linking entire sentences
 | Do | Don't |
 |---|---|
 | Read our [user experience design blog](). | [Click here to read our blog about user experience design](). |
+{: .do-dont-table}

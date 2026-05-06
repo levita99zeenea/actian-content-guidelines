@@ -34,3 +34,4 @@ A stepper guides users through a multi-step process in a defined sequence. Each 
 | Choose a data source | Step 1: Data source selection |
 | Create (final step) | Finish / Done / Submit |
 | Back | Previous |
+{: .do-dont-table}

@@ -34,3 +34,4 @@ Multi-select allows users to choose more than one option from a list. It is used
 | 3 selected | 3 items have been selected |
 | Clear all | Remove all selections |
 | Select all | Check all |
+{: .do-dont-table}

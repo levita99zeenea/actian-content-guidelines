@@ -67,6 +67,7 @@ Forms collect or update user data. Consistent structure, clear labels, and helpf
 |---|---|
 | Label: Connection name / Helper: Use a unique name to identify this connection. | Placeholder: Enter connection name (no visible label) |
 | Helper: Must be 8–32 characters. | Helper: Please enter a valid password. |
+{: .do-dont-table}
 
 ---
 

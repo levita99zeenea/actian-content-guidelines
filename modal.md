@@ -28,3 +28,4 @@ Modals interrupt the current flow to require the user's attention for a confirma
 | Title: Delete dataset | Title: OK |
 | This will permanently delete the dataset and cannot be undone. | Are you sure you want to do this? |
 | Primary CTA: Delete / Secondary CTA: Cancel | Primary CTA: Yes / Secondary CTA: No |
+{: .do-dont-table}

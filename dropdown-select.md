@@ -27,3 +27,4 @@ Dropdowns and select menus allow users to choose one option from a list. They ar
 | Actions | Click here |
 | Download PDF | PDF download |
 | Add tag | Tag adding |
+{: .do-dont-table}

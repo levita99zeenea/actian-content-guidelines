@@ -27,3 +27,4 @@ A switch is a binary control that toggles a setting on or off. Unlike a toggle c
 | Email notifications | Enable email notifications |
 | Public access | Turn on public access |
 | Auto-refresh | Auto-refresh: ON |
+{: .do-dont-table}
