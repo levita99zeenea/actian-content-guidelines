@@ -1,6 +1,7 @@
 ﻿---
 title: "Format spec"
-nav_order: 39
+nav_exclude: true
+search_exclude: true
 ---
 # Content guidelines format spec
 
