@@ -68,45 +68,45 @@ Run through this before any UI copy review:
 
 ## All sections
 
-| # | Section |
-|---|---|
-| 1 | [Global guidelines](global-guidelines) — voice, tone, words to avoid |
-| 2 | [Buttons](buttons) |
-| 3 | [Links](links) |
-| 4 | [Checkboxes](checkboxes) |
-| 5 | [Dropdown / Select](dropdown-select) |
-| 6 | [Filters](filters) |
-| 7 | [Cards](cards) |
-| 8 | [Empty and system states](empty-and-system-states) |
-| 9 | [Forms](forms) |
-| 10 | [Sticky footer](sticky-footer) |
-| 11 | [Modal](modal) |
-| 12 | [Search](search) |
-| 13 | [Text input](text-input) |
-| 14 | [Notifications and messaging](notifications-and-messaging) |
-| 15 | [Navigation](navigation) |
-| 16 | [Loading and progress](loading-and-progress) |
-| 17 | [Tags, badges, and status indicators](tags-badges-status-indicators) |
-| 18 | [Dialogs and confirmations](dialogs-and-confirmations) |
-| 19 | [Onboarding](onboarding) |
-| 20 | [What's new](whats-new) |
-| 21 | [Alerts](alerts) |
-| 22 | [Combo box](combo-box) |
-| 23 | [Data tables](data-tables) |
-| 24 | [Grid and spacing](grid-and-spacing) |
-| 25 | [Icons](icons) |
-| 26 | [Inline toast](inline-toast) |
-| 27 | [Lineage-specific UI](lineage-specific-ui) |
-| 28 | [Multi-select](multi-select) |
-| 29 | [Object preview panels](object-preview-panels) |
-| 30 | [Popover](popover) |
-| 31 | [Related content panels](related-content-panels) |
-| 32 | [Stepper](stepper) |
-| 33 | [Switch](switch) |
-| 34 | [Tables](tables) |
-| 35 | [Uploads](uploads) |
-| 36 | [Validation messages](validation-messages) |
-| 37 | [Wizards](wizards) |
+| Section |
+|---|
+| [Global guidelines](global-guidelines) — voice, tone, words to avoid |
+| [Buttons](buttons) |
+| [Links](links) |
+| [Checkboxes](checkboxes) |
+| [Dropdown / Select](dropdown-select) |
+| [Filters](filters) |
+| [Cards](cards) |
+| [Empty and system states](empty-and-system-states) |
+| [Forms](forms) |
+| [Sticky footer](sticky-footer) |
+| [Modal](modal) |
+| [Search](search) |
+| [Text input](text-input) |
+| [Notifications and messaging](notifications-and-messaging) |
+| [Navigation](navigation) |
+| [Loading and progress](loading-and-progress) |
+| [Tags, badges, and status indicators](tags-badges-status-indicators) |
+| [Dialogs and confirmations](dialogs-and-confirmations) |
+| [Onboarding](onboarding) |
+| [What's new](whats-new) |
+| [Alerts](alerts) |
+| [Combo box](combo-box) |
+| [Data tables](data-tables) |
+| [Grid and spacing](grid-and-spacing) |
+| [Icons](icons) |
+| [Inline toast](inline-toast) |
+| [Lineage-specific UI](lineage-specific-ui) |
+| [Multi-select](multi-select) |
+| [Object preview panels](object-preview-panels) |
+| [Popover](popover) |
+| [Related content panels](related-content-panels) |
+| [Stepper](stepper) |
+| [Switch](switch) |
+| [Tables](tables) |
+| [Uploads](uploads) |
+| [Validation messages](validation-messages) |
+| [Wizards](wizards) |
 
 ---
 

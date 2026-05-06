@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Index"
 nav_order: 1
 ---
@@ -20,52 +20,49 @@ Each section follows a consistent structure:
 - **Do / Don't** — side-by-side examples
 - Additional subsections (Terminology, Accessibility, Variants) where relevant
 
-Sections marked with `[placeholder]` have not yet been drafted.  
-Sections marked `[from Figma]` are synchronized from the Figma design system.
-
 ---
 
 ## Sections
 
-| # | Section | File |
-|---|---|---|
-| 1 | Global guidelines (voice, tone, words to avoid) | [01-global-guidelines.md](01-global-guidelines.md) |
-| 2 | Buttons | [02-buttons.md](02-buttons.md) |
-| 3 | Links | [03-links.md](03-links.md) |
-| 4 | Checkboxes | [04-checkboxes.md](04-checkboxes.md) |
-| 5 | Dropdown / Select | [05-dropdown-select.md](05-dropdown-select.md) |
-| 6 | Filters | [06-filters.md](06-filters.md) |
-| 7 | Cards | [07-cards.md](07-cards.md) |
-| 8 | Empty and system states | [08-empty-and-system-states.md](08-empty-and-system-states.md) |
-| 9 | Forms | [09-forms.md](09-forms.md) |
-| 10 | Sticky footer | [10-sticky-footer.md](10-sticky-footer.md) |
-| 11 | Modal | [11-modal.md](11-modal.md) |
-| 12 | Search | [12-search.md](12-search.md) |
-| 13 | Text input | [13-text-input.md](13-text-input.md) |
-| 14 | Notifications and messaging | [14-notifications-and-messaging.md](14-notifications-and-messaging.md) |
-| 15 | Navigation | [15-navigation.md](15-navigation.md) |
-| 16 | Loading and progress | [16-loading-and-progress.md](16-loading-and-progress.md) |
-| 17 | Tags, badges, and status indicators | [17-tags-badges-status-indicators.md](17-tags-badges-status-indicators.md) |
-| 18 | Dialogs and confirmations | [18-dialogs-and-confirmations.md](18-dialogs-and-confirmations.md) |
-| 19 | Onboarding | [19-onboarding.md](19-onboarding.md) |
-| 20 | What's new | [20-whats-new.md](20-whats-new.md) |
-| 21 | Alerts | [21-alerts.md](21-alerts.md) |
-| 22 | Combo box | [22-combo-box.md](22-combo-box.md) |
-| 23 | Data tables | [23-data-tables.md](23-data-tables.md) |
-| 24 | Grid and spacing | [24-grid-and-spacing.md](24-grid-and-spacing.md) |
-| 25 | Icons | [25-icons.md](25-icons.md) |
-| 26 | Inline toast | [26-inline-toast.md](26-inline-toast.md) |
-| 27 | Lineage-specific UI | [27-lineage-specific-ui.md](27-lineage-specific-ui.md) |
-| 28 | Multi-select | [28-multi-select.md](28-multi-select.md) |
-| 29 | Object preview panels | [29-object-preview-panels.md](29-object-preview-panels.md) |
-| 30 | Popover | [30-popover.md](30-popover.md) |
-| 31 | Related content panels | [31-related-content-panels.md](31-related-content-panels.md) |
-| 32 | Stepper | [32-stepper.md](32-stepper.md) |
-| 33 | Switch | [33-switch.md](33-switch.md) |
-| 34 | Tables | [34-tables.md](34-tables.md) |
-| 35 | Uploads | [35-uploads.md](35-uploads.md) |
-| 36 | Validation messages | [36-validation-messages.md](36-validation-messages.md) |
-| 37 | Wizards | [37-wizards.md](37-wizards.md) |
+| Section | File |
+|---|---|
+| Global guidelines (voice, tone, words to avoid) | [global-guidelines.md](global-guidelines.md) |
+| Buttons | [buttons.md](buttons.md) |
+| Links | [links.md](links.md) |
+| Checkboxes | [checkboxes.md](checkboxes.md) |
+| Dropdown / Select | [dropdown-select.md](dropdown-select.md) |
+| Filters | [filters.md](filters.md) |
+| Cards | [cards.md](cards.md) |
+| Empty and system states | [empty-and-system-states.md](empty-and-system-states.md) |
+| Forms | [forms.md](forms.md) |
+| Sticky footer | [sticky-footer.md](sticky-footer.md) |
+| Modal | [modal.md](modal.md) |
+| Search | [search.md](search.md) |
+| Text input | [text-input.md](text-input.md) |
+| Notifications and messaging | [notifications-and-messaging.md](notifications-and-messaging.md) |
+| Navigation | [navigation.md](navigation.md) |
+| Loading and progress | [loading-and-progress.md](loading-and-progress.md) |
+| Tags, badges, and status indicators | [tags-badges-status-indicators.md](tags-badges-status-indicators.md) |
+| Dialogs and confirmations | [dialogs-and-confirmations.md](dialogs-and-confirmations.md) |
+| Onboarding | [onboarding.md](onboarding.md) |
+| What's new | [whats-new.md](whats-new.md) |
+| Alerts | [alerts.md](alerts.md) |
+| Combo box | [combo-box.md](combo-box.md) |
+| Data tables | [data-tables.md](data-tables.md) |
+| Grid and spacing | [grid-and-spacing.md](grid-and-spacing.md) |
+| Icons | [icons.md](icons.md) |
+| Inline toast | [inline-toast.md](inline-toast.md) |
+| Lineage-specific UI | [lineage-specific-ui.md](lineage-specific-ui.md) |
+| Multi-select | [multi-select.md](multi-select.md) |
+| Object preview panels | [object-preview-panels.md](object-preview-panels.md) |
+| Popover | [popover.md](popover.md) |
+| Related content panels | [related-content-panels.md](related-content-panels.md) |
+| Stepper | [stepper.md](stepper.md) |
+| Switch | [switch.md](switch.md) |
+| Tables | [tables.md](tables.md) |
+| Uploads | [uploads.md](uploads.md) |
+| Validation messages | [validation-messages.md](validation-messages.md) |
+| Wizards | [wizards.md](wizards.md) |
 
 ---
 
