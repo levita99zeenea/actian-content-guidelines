@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 48" fill="none" width="42" height="36" aria-hidden="true">
+  <!-- Left peak: navy blue -->
+  <polyline points="2,44 22,4 28,44"   stroke="#1a237e" stroke-width="3.5" stroke-linejoin="round" fill="none"/>
+  <polyline points="7,44 22,9 25,44"   stroke="#283593" stroke-width="3.5" stroke-linejoin="round" fill="none"/>
+  <polyline points="12,44 22,14 22,44" stroke="#3949ab" stroke-width="3.5" stroke-linejoin="round" fill="none"/>
+  <!-- Right peak: cyan -->
+  <polyline points="28,44 40,8 54,44"  stroke="#0277bd" stroke-width="3.5" stroke-linejoin="round" fill="none"/>
+  <polyline points="30,44 40,13 51,44" stroke="#0288d1" stroke-width="3.5" stroke-linejoin="round" fill="none"/>
+  <polyline points="32,44 40,18 48,44" stroke="#00b0ff" stroke-width="3.5" stroke-linejoin="round" fill="none"/>
+</svg>

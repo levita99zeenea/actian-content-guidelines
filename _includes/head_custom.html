@@ -6,31 +6,30 @@
 <script>
   document.addEventListener('DOMContentLoaded', function () {
 
-    // ── Header: inject Actian logo + wordmark + separator ──
-    // The logo is inlined as an <svg> element directly — avoids SCSS
-    // data-URI compilation issues that prevented the background-image approach
-    // from rendering. Left peak = navy, right peak = cyan, matching Actian brand mark.
-    var logoSVG =
-      '<svg class="actian-logo-mark" viewBox="0 0 56 48" fill="none" ' +
-           'xmlns="http://www.w3.org/2000/svg" aria-hidden="true">' +
-        '<polyline points="2,44 22,4 28,44"   stroke="#1a237e" stroke-width="3.5" stroke-linejoin="round"/>' +
-        '<polyline points="7,44 22,9 25,44"   stroke="#283593" stroke-width="3.5" stroke-linejoin="round"/>' +
-        '<polyline points="12,44 22,14 22,44" stroke="#3949ab" stroke-width="3.5" stroke-linejoin="round"/>' +
-        '<polyline points="28,44 40,8 54,44"  stroke="#0277bd" stroke-width="3.5" stroke-linejoin="round"/>' +
-        '<polyline points="30,44 40,13 51,44" stroke="#0288d1" stroke-width="3.5" stroke-linejoin="round"/>' +
-        '<polyline points="32,44 40,18 48,44" stroke="#00b0ff" stroke-width="3.5" stroke-linejoin="round"/>' +
-      '</svg>';
-
+    // ── Header: inject ACTIAN wordmark + separator alongside the logo img ──
+    // just-the-docs renders: <a class="site-title"><img class="site-logo">Content Guidelines</a>
+    // We wrap the title text and inject the wordmark spans after the logo image.
     var siteTitle = document.querySelector('.site-title');
     if (siteTitle) {
-      var titleText = siteTitle.textContent.trim();
+      var logoImg = siteTitle.querySelector('img.site-logo, .site-logo');
+      var titleText = '';
+      // Grab text nodes only (skip the img element)
+      siteTitle.childNodes.forEach(function (node) {
+        if (node.nodeType === Node.TEXT_NODE) {
+          titleText += node.textContent;
+        }
+      });
+      titleText = titleText.trim();
+
+      // Rebuild: [img kept in place] + wordmark + separator + title
+      var afterImg = logoImg ? logoImg.outerHTML : '';
       siteTitle.innerHTML =
-        logoSVG +
+        afterImg +
         '<span class="actian-wordmark">ACTIAN' +
           '<span class="actian-division">a division of HCLSoftware</span>' +
         '</span>' +
         '<span class="actian-header-sep" aria-hidden="true"></span>' +
-        '<span class="actian-header-title">' + titleText + '</span>';
+        '<span class="actian-header-title">' + (titleText || 'Content Guidelines') + '</span>';
     }
 
     // ── Do / Don't table detection (backup for tables without IAL) ──

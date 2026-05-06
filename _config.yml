@@ -13,6 +13,9 @@ heading_anchors: true
 # Color scheme
 color_scheme: actian
 
+# Logo (just-the-docs built-in — renders an <img> before the site title)
+logo: "/actian-content-guidelines/assets/images/actian-logo.svg"
+
 # Footer
 footer_content: "Actian Data Intelligence &mdash; Content Guidelines"
 

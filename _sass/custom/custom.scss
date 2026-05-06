@@ -129,16 +129,14 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: none !important;
     padding: 10px 0;
 
-    // Logo mark — inline <svg> injected by head_custom.html JS
-    // Sized here; stroke colours are in the SVG markup itself
-    svg.actian-logo-mark,
-    .actian-logo-mark {
+    // Logo mark — rendered by just-the-docs via logo: config in _config.yml
+    img.site-logo,
+    .site-logo {
       width: 42px;
       height: 36px;
       flex-shrink: 0;
       margin-right: 12px;
       display: block;
-      overflow: visible;
     }
 
     // "ACTIAN" wordmark + "a division of HCLSoftware" sub-text
