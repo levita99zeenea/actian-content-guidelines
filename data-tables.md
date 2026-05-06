@@ -41,5 +41,5 @@ Data tables display structured information in rows and columns. They are the pri
 
 ## Bulk actions
 
-- Label bulk action buttons with a verb that applies to all selected items. For example, `Delete selected` or `Export`.
+- Label bulk action buttons with a verb that applies to all selected items. For example, **Delete selected** or **Export**.
 - Show the count of selected items near the action. For example, `3 items selected`.

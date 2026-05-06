@@ -17,7 +17,7 @@ Onboarding helps users understand the platform and reach their first success qui
 
 - Lead with what the user can do, not what the product does.
 - Keep each step focused on one task.
-- Use action-oriented **CTAs**. For example, `Set up your first connection`.
+- Use action-oriented **CTAs**. For example, **Set up your first connection**.
 - Do not use marketing language in onboarding flows.
 
 ## Wizard step titles

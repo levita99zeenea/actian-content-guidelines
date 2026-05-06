@@ -11,15 +11,15 @@ A link visually represents clickable text or elements that navigate users to oth
 ## When to use
 
 - For navigation to internal or external destinations. Use external link icon in the latter case.
-- For inline standalone contextual actions (for example, `Learn more`).
+- For inline standalone contextual actions (for example, **Learn more**).
 - Avoid using links for actions; use [ghost buttons](buttons) instead.
 
 ## Should I use a button or a link?
 
 A link should be used when navigating between pages, while a button should be used for actions like submitting a form, downloading a file, or triggering a task.
 
-- Use a link for `View more articles`.
-- Use a button for `Submit form`.
+- Use a link for **View more articles**.
+- Use a button for **Submit form**.
 
 ## Style
 
@@ -58,7 +58,7 @@ Use action verbs for links that load tasks. Action-oriented language guides the 
 
 ## Consistency in link text
 
-Use consistent link phrases for similar actions. Similar actions should use the same link text to help users develop familiarity and expectations. For example, if you use `Learn more` for accessing detailed content in one area, avoid switching to `Read details` elsewhere. Keep link text brief but meaningful.
+Use consistent link phrases for similar actions. Similar actions should use the same link text to help users develop familiarity and expectations. For example, if you use **Learn more** for accessing detailed content in one area, avoid switching to **Read details** elsewhere. Keep link text brief but meaningful.
 
 ## Avoid linking full sentences or paragraphs
 

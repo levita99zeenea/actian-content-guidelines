@@ -20,7 +20,7 @@ System states communicate the current condition of the platform or a specific vi
 
 - Use a short, instructive headline (noun phrase or imperative verb).
 - Follow with one concise sentence that explains what the user can do.
-- Provide one primary action (for example, `Create dataset`).
+- Provide one primary action (for example, **Create dataset**).
 - Do not use `No results found` as a standalone message without guidance.
 
 ### Do / Don't
@@ -71,7 +71,7 @@ System states communicate the current condition of the platform or a specific vi
 
 - Explain what is affected and for how long.
 - Provide an estimated time to resolution when available.
-- Include a single action if there is something the user can do (for example, `Refresh`).
+- Include a single action if there is something the user can do (for example, **Refresh**).
 
 ### Example
 

@@ -15,7 +15,7 @@ When users need to import data files, certificates, configuration files, or atta
 ## Style
 
 - Drop zone label: use an action phrase plus the accepted file types. For example, `Drag and drop a CSV file, or browse`.
-- Browse link text: `Browse` or `Choose file` - not `Click here`.
+- Browse link text: **Browse** or **Choose file** - not `Click here`.
 - File type restrictions: list the accepted formats explicitly. For example, `Accepts .csv, .json, and .xlsx files`.
 - File size limit: state the limit in plain language. For example, `Maximum file size: 50 MB`.
 

@@ -23,6 +23,6 @@ Filters allow users to refine visible data by applying structured criteria. They
 
 ## Behavior
 
-- Apply filters immediately on selection, or provide an explicit `Apply` button for complex filter sets.
-- Provide a `Clear all` or `Reset filters` action when filters are active.
+- Apply filters immediately on selection, or provide an explicit **Apply** button for complex filter sets.
+- Provide a **Clear all** or **Reset filters** action when filters are active.
 - Persist filter state when users navigate away and return to the same view.

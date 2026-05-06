@@ -13,7 +13,7 @@ Checkboxes let users select one or more options from a list. They are used for c
 ### When to use
 
 - To allow users to select multiple options in a group.
-- For binary settings that are independent of other choices. For example, `Enable notifications`.
+- For binary settings that are independent of other choices. For example, **Enable notifications**.
 - When a task involves filtering or refining data. For example, applying multiple filters to a search.
 
 ### Style

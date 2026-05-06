@@ -24,7 +24,7 @@ Cards present information in compact, scannable formats and allow users to inter
 ### Behavior
 
 - The entire card is clickable and navigates to the item detail page.
-- Contextual actions (such as Edit, Delete) appear on hover or via an overflow menu.
+- Contextual actions (such as **Edit**, **Delete**) appear on hover or via an overflow menu.
 
 ---
 

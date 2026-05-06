@@ -124,7 +124,7 @@ For any interaction involving date ranges, filtering, or scheduling.
 
 ### Style
 
-- Label the toggle next to or above the control. For example, `Enable alerts`.
+- Label the toggle next to or above the control. For example, **Enable alerts**.
 - Show the label for the state that is currently active. For example, show `Off` when off, `On` when on - but not both at the same time.
 
 ### Behavior
@@ -144,7 +144,7 @@ For any interaction involving date ranges, filtering, or scheduling.
 **Use a [checkbox](checkboxes) when:**
 - The user is selecting one or more items.
 - The action does not take effect immediately (typically part of a form or group submission).
-- It is a yes/no decision that is reviewed later. For example, `Agree to terms and conditions` or `Subscribe to newsletter`.
+- It is a yes/no decision that is reviewed later. For example, **Agree to terms and conditions** or **Subscribe to newsletter**.
 
 ---
 
@@ -158,7 +158,7 @@ For any interaction involving date ranges, filtering, or scheduling.
 ### Style
 
 - Use short, descriptive labels that clearly state each option.
-- Write labels as direct answers to the group's prompt or question. For example, `Yes / No` instead of `Select yes if you agree`.
+- Write labels as direct answers to the group's prompt or question. For example, **Yes / No** instead of `Select yes if you agree`.
 - Ensure the group label or question is always visible next to the options.
 - Avoid jargon or abbreviations.
 - Keep labels parallel in structure - all nouns, or all verb phrases.

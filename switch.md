@@ -15,7 +15,7 @@ A switch is a binary control that toggles a setting on or off. Unlike a toggle c
 
 ## Style
 
-- Label the switch for the feature or setting being controlled, not the on/off state. For example, `Email notifications` — not `Enable email notifications` or `Email notifications on`.
+- Label the switch for the feature or setting being controlled, not the on/off state. For example, **Email notifications** — not **Enable email notifications** or **Email notifications on**.
 - If the on and off states have meaningfully different consequences, add a short description below the switch label.
 - Use sentence case.
 
