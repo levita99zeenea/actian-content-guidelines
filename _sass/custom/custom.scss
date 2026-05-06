@@ -112,78 +112,43 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-// ── Site Header ──
-// White background matching Actian documentation style
+// ── Site Header bar (search + aux links) ──
 .site-header {
   background-color: #FFFFFF !important;
   border-bottom: 1px solid var(--actian-border) !important;
   box-shadow: var(--actian-shadow-xs) !important;
   padding: 0 !important;
+}
 
-  .site-title {
-    display: flex !important;
-    align-items: center;
-    gap: 0;
-    color: var(--actian-text-primary) !important;
-    text-decoration: none !important;
-    border-bottom: none !important;
-    padding: 10px 0;
+// ── Site title — lives in the sidebar (.side-bar), NOT in .site-header ──
+// just-the-docs v0.10.0 renders: <a class="site-title lh-tight">Content Guidelines</a>
+// We prepend the Actian logo mark via ::before pseudo-element (pure CSS, no JS needed).
+.site-title {
+  display: flex !important;
+  align-items: center !important;
+  color: var(--actian-text-primary) !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  text-decoration: none !important;
 
-    // Logo mark — rendered by just-the-docs via logo: config in _config.yml
-    img.site-logo,
-    .site-logo {
-      width: 42px;
-      height: 36px;
-      flex-shrink: 0;
-      margin-right: 12px;
-      display: block;
-    }
-
-    // "ACTIAN" wordmark + "a division of HCLSoftware" sub-text
-    .actian-wordmark {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      margin-right: 16px;
-      line-height: 1;
-      font-size: 15px;
-      font-weight: 700;
-      letter-spacing: 0.08em;
-      color: var(--actian-text-primary);
-    }
-
-    .actian-division {
-      display: block;
-      font-size: 9px;
-      font-weight: 400;
-      letter-spacing: 0.02em;
-      color: var(--actian-text-tertiary);
-      margin-top: 4px;
-      text-transform: none;
-    }
-
-    // Vertical separator bar
-    .actian-header-sep {
-      width: 1px;
-      height: 28px;
-      background: var(--actian-border);
-      margin: 0 16px;
-      flex-shrink: 0;
-    }
-
-    // "Content Guidelines" product label
-    .actian-header-title {
-      font-size: 15px;
-      font-weight: 600;
-      color: var(--actian-brand-primary);
-      letter-spacing: 0.01em;
-    }
+  // Logo mark: the two-peak Actian SVG served as a static file
+  &::before {
+    content: "";
+    display: inline-block;
+    flex-shrink: 0;
+    width: 40px;
+    height: 34px;
+    margin-right: 10px;
+    background-image: url("/actian-content-guidelines/assets/images/actian-logo.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
   }
 
-  .site-button,
-  .site-nav .nav-list-link {
-    color: var(--actian-text-secondary) !important;
-    &:hover { color: var(--actian-brand-primary) !important; }
+  // Suppress the just-the-docs hover gradient so it doesn't obscure the logo
+  &:hover {
+    background-image: none !important;
+    color: var(--actian-brand-primary) !important;
   }
 }
 

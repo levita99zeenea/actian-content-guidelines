@@ -16,7 +16,7 @@ Multi-select allows users to choose more than one option from a list. It is used
 
 ## Style
 
-- Label the control with a short noun phrase describing the category being selected. For example, `Data domains` or `Owners`.
+- Label the control with a short noun phrase describing the category being selected. For example, **Data domains** or **Owners**.
 - Show selected values as chips or tokens inside the input field.
 - Keep chip labels concise - use the item name only, not additional metadata.
 - Use **Select all** and **Clear all** as action labels when applicable.

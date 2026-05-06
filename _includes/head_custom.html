@@ -6,32 +6,6 @@
 <script>
   document.addEventListener('DOMContentLoaded', function () {
 
-    // ── Header: inject ACTIAN wordmark + separator alongside the logo img ──
-    // just-the-docs renders: <a class="site-title"><img class="site-logo">Content Guidelines</a>
-    // We wrap the title text and inject the wordmark spans after the logo image.
-    var siteTitle = document.querySelector('.site-title');
-    if (siteTitle) {
-      var logoImg = siteTitle.querySelector('img.site-logo, .site-logo');
-      var titleText = '';
-      // Grab text nodes only (skip the img element)
-      siteTitle.childNodes.forEach(function (node) {
-        if (node.nodeType === Node.TEXT_NODE) {
-          titleText += node.textContent;
-        }
-      });
-      titleText = titleText.trim();
-
-      // Rebuild: [img kept in place] + wordmark + separator + title
-      var afterImg = logoImg ? logoImg.outerHTML : '';
-      siteTitle.innerHTML =
-        afterImg +
-        '<span class="actian-wordmark">ACTIAN' +
-          '<span class="actian-division">a division of HCLSoftware</span>' +
-        '</span>' +
-        '<span class="actian-header-sep" aria-hidden="true"></span>' +
-        '<span class="actian-header-title">' + (titleText || 'Content Guidelines') + '</span>';
-    }
-
     // ── Do / Don't table detection (backup for tables without IAL) ──
     // Normalises apostrophes before comparing — Kramdown outputs curly quotes.
     function normalizeApostrophes(s) {
