@@ -379,6 +379,32 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+// ── Section list (all-sections grid on index pages) ──
+.actian-section-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 2px 32px;
+  margin: 16px 0 32px;
+
+  a {
+    display: block;
+    padding: 7px 0;
+    font-size: 14px;
+    color: var(--actian-brand-primary);
+    border-bottom: 1px solid var(--actian-bg-grey-2);
+    text-decoration: none !important;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: var(--actian-border);
+    transition: color 0.12s, padding-left 0.12s;
+
+    &:hover {
+      color: var(--actian-text-primary);
+      padding-left: 6px;
+    }
+  }
+}
+
 // ── Breadcrumbs ──
 .breadcrumb-nav {
   font-size: 12px;

@@ -2,84 +2,63 @@
 title: "Index"
 nav_order: 1
 ---
-# Actian Data Intelligence — Content guidelines index
+# Content guidelines index
 
-**Source:** Actian Data Intelligence Product and UI Content Guidelines  
-**Audience:** Writers, designers, and product teams  
-**Style basis:** IBM Style conventions; sentence case throughout  
-**Last updated:** 2026-05-05
+Each section covers a specific UI component or topic and follows a consistent structure: **When to use**, **Style**, **Behavior**, and **Do / Don't** examples.
 
----
-
-## How to read these files
-
-Each section follows a consistent structure:
-- **When to use** — conditions and context
-- **Style** — copy format, casing, punctuation, length
-- **Behavior** — how the component responds and what copy should reflect
-- **Do / Don't** — side-by-side examples
-- Additional subsections (Terminology, Accessibility, Variants) where relevant
+Use the sidebar to navigate, or jump directly to a section below.
 
 ---
 
-## Sections
+## All sections
 
-| Section | File |
-|---|---|
-| Global guidelines (voice, tone, words to avoid) | [global-guidelines.md](global-guidelines.md) |
-| Buttons | [buttons.md](buttons.md) |
-| Links | [links.md](links.md) |
-| Checkboxes | [checkboxes.md](checkboxes.md) |
-| Dropdown / Select | [dropdown-select.md](dropdown-select.md) |
-| Filters | [filters.md](filters.md) |
-| Cards | [cards.md](cards.md) |
-| Empty and system states | [empty-and-system-states.md](empty-and-system-states.md) |
-| Forms | [forms.md](forms.md) |
-| Sticky footer | [sticky-footer.md](sticky-footer.md) |
-| Modal | [modal.md](modal.md) |
-| Search | [search.md](search.md) |
-| Text input | [text-input.md](text-input.md) |
-| Notifications and messaging | [notifications-and-messaging.md](notifications-and-messaging.md) |
-| Navigation | [navigation.md](navigation.md) |
-| Loading and progress | [loading-and-progress.md](loading-and-progress.md) |
-| Tags, badges, and status indicators | [tags-badges-status-indicators.md](tags-badges-status-indicators.md) |
-| Dialogs and confirmations | [dialogs-and-confirmations.md](dialogs-and-confirmations.md) |
-| Onboarding | [onboarding.md](onboarding.md) |
-| What's new | [whats-new.md](whats-new.md) |
-| Alerts | [alerts.md](alerts.md) |
-| Combo box | [combo-box.md](combo-box.md) |
-| Data tables | [data-tables.md](data-tables.md) |
-| Grid and spacing | [grid-and-spacing.md](grid-and-spacing.md) |
-| Icons | [icons.md](icons.md) |
-| Inline toast | [inline-toast.md](inline-toast.md) |
-| Lineage-specific UI | [lineage-specific-ui.md](lineage-specific-ui.md) |
-| Multi-select | [multi-select.md](multi-select.md) |
-| Object preview panels | [object-preview-panels.md](object-preview-panels.md) |
-| Popover | [popover.md](popover.md) |
-| Related content panels | [related-content-panels.md](related-content-panels.md) |
-| Stepper | [stepper.md](stepper.md) |
-| Switch | [switch.md](switch.md) |
-| Tables | [tables.md](tables.md) |
-| Uploads | [uploads.md](uploads.md) |
-| Validation messages | [validation-messages.md](validation-messages.md) |
-| Wizards | [wizards.md](wizards.md) |
-
----
-
-## Source files
-
-- **Word document (source of truth):** `C:\Users\jlevitt\OneDrive - Actian Software\Documents\zeenea\content guidelines\Actian_Content_Guidelines_Claude3.docx`
-- **Plugin compiled version:** `~/.claude/plugins/marketplaces/actian-design-system/plugins/actian-design-system/docs/content-guidelines.md`
-- **Format spec (for Word/Figma output):** [format-spec.md](format-spec.md)
+<div class="actian-section-list">
+  <a href="global-guidelines">Global guidelines</a>
+  <a href="buttons">Buttons</a>
+  <a href="links">Links</a>
+  <a href="checkboxes">Checkboxes</a>
+  <a href="dropdown-select">Dropdown / Select</a>
+  <a href="filters">Filters</a>
+  <a href="cards">Cards</a>
+  <a href="empty-and-system-states">Empty and system states</a>
+  <a href="forms">Forms</a>
+  <a href="sticky-footer">Sticky footer</a>
+  <a href="modal">Modal</a>
+  <a href="search">Search</a>
+  <a href="text-input">Text input</a>
+  <a href="notifications-and-messaging">Notifications and messaging</a>
+  <a href="navigation">Navigation</a>
+  <a href="loading-and-progress">Loading and progress</a>
+  <a href="tags-badges-status-indicators">Tags, badges, and status indicators</a>
+  <a href="dialogs-and-confirmations">Dialogs and confirmations</a>
+  <a href="onboarding">Onboarding</a>
+  <a href="whats-new">What's new</a>
+  <a href="alerts">Alerts</a>
+  <a href="combo-box">Combo box</a>
+  <a href="data-tables">Data tables</a>
+  <a href="grid-and-spacing">Grid and spacing</a>
+  <a href="icons">Icons</a>
+  <a href="inline-toast">Inline toast</a>
+  <a href="lineage-specific-ui">Lineage-specific UI</a>
+  <a href="multi-select">Multi-select</a>
+  <a href="object-preview-panels">Object preview panels</a>
+  <a href="popover">Popover</a>
+  <a href="related-content-panels">Related content panels</a>
+  <a href="stepper">Stepper</a>
+  <a href="switch">Switch</a>
+  <a href="tables">Tables</a>
+  <a href="uploads">Uploads</a>
+  <a href="validation-messages">Validation messages</a>
+  <a href="wizards">Wizards</a>
+</div>
 
 ---
 
-## Querying guidelines
+## Using these guidelines with the Actian Design System plugin
 
-When using the Actian Design System plugin, you can ask questions like:
+Ask the plugin natural language questions and it will reference the relevant section:
+
 - "What is the correct button label for canceling out of a form?"
 - "How should I write placeholder text for a search field?"
 - "What are the rules for validation messages?"
 - "What's the difference between a toast and an alert?"
-
-The plugin will reference these files to answer content questions.
