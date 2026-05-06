@@ -121,34 +121,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 // ── Site title — lives in the sidebar (.side-bar), NOT in .site-header ──
-// just-the-docs v0.10.0 renders: <a class="site-title lh-tight">Content Guidelines</a>
-// We prepend the Actian logo mark via ::before pseudo-element (pure CSS, no JS needed).
+// _includes/title.html is overridden to render the full Actian wordmark SVG as <img>.
+// The <a class="site-title"> wraps it; we just size the image and suppress hover effects.
 .site-title {
-  display: flex !important;
-  align-items: center !important;
-  color: var(--actian-text-primary) !important;
-  font-size: 14px !important;
-  font-weight: 600 !important;
+  display: block !important;
+  padding: 16px 16px 12px !important;
   text-decoration: none !important;
+  line-height: 0 !important; // prevent extra space below inline img
 
-  // Logo mark: the two-peak Actian SVG served as a static file
-  &::before {
-    content: "";
-    display: inline-block;
-    flex-shrink: 0;
-    width: 40px;
-    height: 34px;
-    margin-right: 10px;
-    background-image: url("/actian-content-guidelines/assets/images/actian-logo.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-  }
+  // Suppress just-the-docs hover gradient
+  &:hover { background-image: none !important; }
 
-  // Suppress the just-the-docs hover gradient so it doesn't obscure the logo
-  &:hover {
-    background-image: none !important;
-    color: var(--actian-brand-primary) !important;
+  // Full Actian wordmark image
+  .actian-full-logo {
+    display: block;
+    width: 100%;
+    max-width: 210px;
+    height: auto;
   }
 }
 
