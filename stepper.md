@@ -12,20 +12,20 @@ A stepper guides users through a multi-step process in a defined sequence. Each 
 
 - When a process has three or more distinct steps that must be completed in order.
 - When it is important for users to understand their progress through a workflow.
-- Do not use a stepper for simple two-step confirmations — use a modal instead.
+- Do not use a stepper for simple two-step confirmations - use a [modal](modal) instead.
 
 ## Step titles
 
-- Use short imperative verb phrases. For example, "Choose a data source," "Configure settings," "Review and create."
-- Do not include the step number in the title text — the stepper component displays that.
+- Use short imperative verb phrases. For example, `Choose a data source`, `Configure settings`, `Review and create`.
+- Do not include the step number in the title text - the stepper component displays that.
 - Keep titles parallel in structure across all steps.
 
 ## Navigation buttons
 
-- Use "Back" for the previous step button. Do not use "Previous."
-- Use "Next" for all intermediate steps.
-- Use "Create" (or the appropriate object-specific verb) for the final step — not "Finish," "Done," or "Submit."
-- See the Buttons section for full stepper button terminology.
+- Use `Back` for the previous step button. Do not use `Previous`.
+- Use `Next` for all intermediate steps.
+- Use `Create` (or the appropriate object-specific verb) for the final step - not `Finish`, `Done`, or `Submit`.
+- See the [Buttons](buttons) section for full stepper button terminology.
 
 ## Do / Don't
 

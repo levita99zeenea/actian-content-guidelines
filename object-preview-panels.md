@@ -15,10 +15,10 @@ Object preview panels display a summary of an asset's key attributes without req
 
 ## Style
 
-- Panel title is the asset name. Use the exact name — do not rephrase.
+- Panel title is the asset name. Use the exact name - do not rephrase.
 - Use short attribute labels (one to two words) followed by their values.
 - Group related attributes under a subheading where the panel is long.
-- Include a "View full details" link at the bottom to navigate to the full detail page.
+- Include a `View full details` link at the bottom to navigate to the full detail page.
 
 ## Attribute label examples
 
@@ -28,3 +28,4 @@ Object preview panels display a summary of an asset's key attributes without req
 | Last modified | Date of last modification |
 | Type | Object type |
 | Description | Asset description |
+{: .do-dont-table}

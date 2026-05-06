@@ -7,11 +7,25 @@
   document.addEventListener('DOMContentLoaded', function () {
 
     // ── Header: inject Actian logo + wordmark + separator ──
+    // The logo is inlined as an <svg> element directly — avoids SCSS
+    // data-URI compilation issues that prevented the background-image approach
+    // from rendering. Left peak = navy, right peak = cyan, matching Actian brand mark.
+    var logoSVG =
+      '<svg class="actian-logo-mark" viewBox="0 0 56 48" fill="none" ' +
+           'xmlns="http://www.w3.org/2000/svg" aria-hidden="true">' +
+        '<polyline points="2,44 22,4 28,44"   stroke="#1a237e" stroke-width="3.5" stroke-linejoin="round"/>' +
+        '<polyline points="7,44 22,9 25,44"   stroke="#283593" stroke-width="3.5" stroke-linejoin="round"/>' +
+        '<polyline points="12,44 22,14 22,44" stroke="#3949ab" stroke-width="3.5" stroke-linejoin="round"/>' +
+        '<polyline points="28,44 40,8 54,44"  stroke="#0277bd" stroke-width="3.5" stroke-linejoin="round"/>' +
+        '<polyline points="30,44 40,13 51,44" stroke="#0288d1" stroke-width="3.5" stroke-linejoin="round"/>' +
+        '<polyline points="32,44 40,18 48,44" stroke="#00b0ff" stroke-width="3.5" stroke-linejoin="round"/>' +
+      '</svg>';
+
     var siteTitle = document.querySelector('.site-title');
     if (siteTitle) {
       var titleText = siteTitle.textContent.trim();
       siteTitle.innerHTML =
-        '<span class="actian-logo-mark" aria-hidden="true"></span>' +
+        logoSVG +
         '<span class="actian-wordmark">ACTIAN' +
           '<span class="actian-division">a division of HCLSoftware</span>' +
         '</span>' +
@@ -19,22 +33,21 @@
         '<span class="actian-header-title">' + titleText + '</span>';
     }
 
-    // ── Do / Don't table detection ──
-    // Jekyll's Kramdown converts the apostrophe in "Don't" to a curly
-    // right-single-quote (U+2019). Normalise before comparing so the
-    // class is applied regardless of which apostrophe variant is used.
+    // ── Do / Don't table detection (backup for tables without IAL) ──
+    // Normalises apostrophes before comparing — Kramdown outputs curly quotes.
     function normalizeApostrophes(s) {
-      return s.replace(/[‘’‚‛]/g, "'");
+      return s.replace(/[''‚‛]/g, "'");
     }
 
-    document.querySelectorAll('table').forEach(function (table) {
+    document.querySelectorAll('table:not(.do-dont-table)').forEach(function (table) {
       var headers = table.querySelectorAll('thead th');
       if (headers.length >= 2) {
         var first  = normalizeApostrophes(headers[0].textContent.trim().toLowerCase());
         var second = normalizeApostrophes(headers[1].textContent.trim().toLowerCase());
         if (
           (first === 'do'  && second === "don't") ||
-          (first === 'use' && second === 'avoid')
+          (first === 'use' && second === 'avoid') ||
+          (first.startsWith('recommended') && second === 'avoid')
         ) {
           table.classList.add('do-dont-table');
         }

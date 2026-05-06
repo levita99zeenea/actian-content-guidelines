@@ -32,13 +32,14 @@ Use clear verbs that describe the outcome. Labels should describe what will happ
 | Confirm | Yes |
 | Delete | Remove (for destructive permanent actions) |
 | Continue (as part of a defined stepper) | Next (in sticky footers outside steppers) |
+{: .do-dont-table}
 
 ## Steppers
 
 When used as part of a stepper, use the following label terminology consistently:
 
-- "Back" for the previous step.
-- "Next" for intermediate steps.
-- "Submit" for the final step.
+- `Back` for the previous step.
+- `Next` for intermediate steps.
+- `Submit` for the final step.
 
-Do not mix "Continue" and "Next," or "Finish" and "Submit" within the same flow.
+Do not mix `Continue` and `Next`, or `Finish` and `Submit` within the same flow.

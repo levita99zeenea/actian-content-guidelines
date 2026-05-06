@@ -10,7 +10,7 @@ Buttons trigger actions. They are the primary mechanism for users to submit form
 
 ## When to use
 
-- Use buttons for actions, not navigation. For navigation, use links.
+- Use buttons for actions, not navigation. For navigation, use [links](links).
 - Use a primary button for the main action on a page or modal.
 - Use secondary buttons for alternative or less critical actions.
 - Use ghost or tertiary buttons for low-priority or destructive actions that should not draw immediate attention.
@@ -18,8 +18,8 @@ Buttons trigger actions. They are the primary mechanism for users to submit form
 ## Style
 
 - Use sentence case for all button labels.
-- Use the verb + object formula whenever possible (for example, "Create report," "Delete dataset").
-- Keep labels concise — ideally two to four words.
+- Use the verb + object formula whenever possible (for example, `Create report`, `Delete dataset`).
+- Keep labels concise - ideally two to four words.
 - Do not end button labels with punctuation.
 - Do not use articles (a, an, the) in button labels unless necessary for clarity.
 
@@ -41,7 +41,7 @@ Buttons trigger actions. They are the primary mechanism for users to submit form
 
 ---
 
-## 2.1 Terminology for button labeling
+## Terminology for button labeling
 
 Use the following term pairs consistently across the platform. Choosing the wrong term creates confusion when the same action appears under different labels in different contexts.
 

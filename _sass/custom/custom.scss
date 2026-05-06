@@ -129,18 +129,16 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: none !important;
     padding: 10px 0;
 
-    // Logo mark — two-peak mountain mark approximating the Actian logo
-    // Left peak: dark navy lines; right peak: cyan lines (rendered on top)
+    // Logo mark — inline <svg> injected by head_custom.html JS
+    // Sized here; stroke colours are in the SVG markup itself
+    svg.actian-logo-mark,
     .actian-logo-mark {
-      display: inline-block;
       width: 42px;
       height: 36px;
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 56 48' fill='none'%3E%3Cpolyline points='2,44 22,4 28,44' stroke='%231a237e' stroke-width='3.5' stroke-linejoin='round'/%3E%3Cpolyline points='7,44 22,9 25,44' stroke='%23283593' stroke-width='3.5' stroke-linejoin='round'/%3E%3Cpolyline points='12,44 22,14 22,44' stroke='%233949ab' stroke-width='3.5' stroke-linejoin='round'/%3E%3Cpolyline points='28,44 40,8 54,44' stroke='%230277bd' stroke-width='3.5' stroke-linejoin='round'/%3E%3Cpolyline points='30,44 40,13 51,44' stroke='%230288d1' stroke-width='3.5' stroke-linejoin='round'/%3E%3Cpolyline points='32,44 40,18 48,44' stroke='%2300b0ff' stroke-width='3.5' stroke-linejoin='round'/%3E%3C/svg%3E");
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-position: center;
-      margin-right: 12px;
       flex-shrink: 0;
+      margin-right: 12px;
+      display: block;
+      overflow: visible;
     }
 
     // "ACTIAN" wordmark + "a division of HCLSoftware" sub-text

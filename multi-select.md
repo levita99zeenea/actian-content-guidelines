@@ -12,18 +12,18 @@ Multi-select allows users to choose more than one option from a list. It is used
 
 - When users need to apply multiple filters at the same time.
 - When assigning multiple tags, owners, or categories to an asset.
-- Do not use multi-select when only one selection is valid — use a single-select dropdown or radio buttons instead.
+- Do not use multi-select when only one selection is valid - use a single-select dropdown or radio buttons instead.
 
 ## Style
 
-- Label the control with a short noun phrase describing the category being selected. For example, "Data domains" or "Owners."
+- Label the control with a short noun phrase describing the category being selected. For example, `Data domains` or `Owners`.
 - Show selected values as chips or tokens inside the input field.
-- Keep chip labels concise — use the item name only, not additional metadata.
-- Use "Select all" and "Clear all" as action labels when applicable.
+- Keep chip labels concise - use the item name only, not additional metadata.
+- Use `Select all` and `Clear all` as action labels when applicable.
 
 ## Behavior
 
-- Show a count of selected items when the list collapses. For example, "3 selected."
+- Show a count of selected items when the list collapses. For example, `3 selected`.
 - Allow individual chip removal via a close icon on each chip.
 - Keep the dropdown open until the user clicks outside or presses Escape.
 

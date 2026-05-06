@@ -4,7 +4,7 @@ nav_order: 37
 ---
 # Validation messages
 
-Validation messages appear inline with form fields to help users correct input errors. They are the primary mechanism for communicating what went wrong and how to fix it.
+Validation messages appear inline with [form](forms) fields to help users correct input errors. They are the primary mechanism for communicating what went wrong and how to fix it.
 
 ---
 
@@ -17,11 +17,11 @@ Validation messages appear inline with form fields to help users correct input e
 ## Style
 
 - Be specific: say what is wrong and how to fix it.
-- Use plain language — do not expose technical error codes or internal validation rule names.
+- Use plain language - do not expose technical error codes or internal validation rule names.
 - Keep messages to one sentence.
-- Do not use "Invalid" as a standalone message — explain why it is invalid.
+- Do not use "Invalid" as a standalone message - explain why it is invalid.
 - Do not blame the user. Use neutral, factual language.
-- Do not use "Please" — omit it.
+- Do not use "Please" - omit it.
 
 ## Do / Don't
 

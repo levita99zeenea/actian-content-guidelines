@@ -8,20 +8,20 @@ System states communicate the current condition of the platform or a specific vi
 
 ---
 
-## 8.1 Empty state
+## Empty state
 
 ### When to use
 
 - When users have not yet created or uploaded items.
-- When filters result in no visible results.
+- When [filters](filters) result in no visible results.
 - To encourage engagement with a clear next action.
 
 ### Style
 
 - Use a short, instructive headline (noun phrase or imperative verb).
 - Follow with one concise sentence that explains what the user can do.
-- Provide one primary action (for example, "Create dataset").
-- Do not use "No results found" as a standalone message without guidance.
+- Provide one primary action (for example, `Create dataset`).
+- Do not use `No results found` as a standalone message without guidance.
 
 ### Do / Don't
 
@@ -41,7 +41,7 @@ System states communicate the current condition of the platform or a specific vi
 
 ---
 
-## 8.2 Error state
+## Error state
 
 ### When to use
 
@@ -65,13 +65,13 @@ System states communicate the current condition of the platform or a specific vi
 
 ---
 
-## 8.3 Maintenance state
+## Maintenance state
 
 ### Style
 
 - Explain what is affected and for how long.
 - Provide an estimated time to resolution when available.
-- Include a single action if there is something the user can do (for example, "Refresh").
+- Include a single action if there is something the user can do (for example, `Refresh`).
 
 ### Example
 
@@ -83,7 +83,7 @@ System states communicate the current condition of the platform or a specific vi
 
 ---
 
-## 8.4 Success state
+## Success state
 
 ### Style
 

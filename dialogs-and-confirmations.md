@@ -6,7 +6,7 @@ nav_order: 19
 
 ---
 
-## 18.1 Confirmation dialog
+## Confirmation dialog
 
 ### When to use
 
@@ -14,10 +14,15 @@ Before irreversible or destructive actions (delete, remove, reset).
 
 ### Style
 
-- Title: name the action, not the outcome. For example, "Delete connection" not "This is permanent."
+- Title: name the action, not the outcome.
+
+| Do | Don't |
+|---|---|
+| Delete connection | This is permanent |
+{: .do-dont-table}
 - Body: one sentence stating what will happen and whether it can be undone.
-- Primary CTA: matches the title verb. For example, "Delete."
-- Secondary CTA: "Cancel."
+- Primary **CTA**: matches the title verb. For example, `Delete`.
+- Secondary **CTA**: `Cancel`.
 
 ### Do / Don't
 
@@ -28,11 +33,11 @@ Before irreversible or destructive actions (delete, remove, reset).
 
 ---
 
-## 18.2 Inline banner
+## Inline banner
 
 ### When to use
 
-To display persistent warnings, errors, or informational messages within a page or form.
+To display persistent warnings, errors, or informational messages within a page or [form](forms).
 
 ### Style
 

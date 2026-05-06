@@ -20,7 +20,7 @@ Data tables display structured information in rows and columns. They are the pri
 - Use sentence case.
 - Do not use abbreviations unless they are universally understood (for example, "ID," "URL").
 - Do not end column headers with punctuation.
-- Align header labels with the data they describe — left-align text columns, right-align numeric columns.
+- Align header labels with the data they describe - left-align text columns, right-align numeric columns.
 
 ### Column header examples
 
@@ -30,15 +30,16 @@ Data tables display structured information in rows and columns. They are the pri
 | Owner | Assigned to / Owned by |
 | Status | Current status |
 | Row count | No. of rows |
+{: .do-dont-table}
 
 ## Cell content
 
 - Keep cell values concise. Truncate long values with an ellipsis and show the full value on hover via tooltip.
 - Use consistent date and number formatting across the table.
-- Use "None" or "—" (em dash) for empty values — not blank, "N/A," or "null."
+- Use "None" or "-" (em dash) for empty values - not blank, "N/A," or "null."
 - Status values use standard vocabulary: Active, Inactive, Draft, Published, Deprecated, Error.
 
 ## Bulk actions
 
-- Label bulk action buttons with a verb that applies to all selected items. For example, "Delete selected" or "Export."
-- Show the count of selected items near the action. For example, "3 items selected."
+- Label bulk action buttons with a verb that applies to all selected items. For example, `Delete selected` or `Export`.
+- Show the count of selected items near the action. For example, `3 items selected`.

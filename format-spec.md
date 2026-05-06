@@ -4,7 +4,7 @@ nav_order: 39
 ---
 # Content guidelines format spec
 
-This file defines how content guideline markdown files should be formatted when generating deliverables — either as a consolidated Word document or as Figma presentation slides.
+This file defines how content guideline markdown files should be formatted when generating deliverables - either as a consolidated Word document or as Figma presentation slides.
 
 ---
 

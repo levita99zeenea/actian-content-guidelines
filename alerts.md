@@ -10,10 +10,10 @@ Alerts communicate important information that requires the user's attention. The
 
 ## When to use
 
-- To warn the user of a condition that may affect their work or data — before an action is taken.
+- To warn the user of a condition that may affect their work or data - before an action is taken.
 - To confirm that a significant action was completed and the user should be aware of the result.
 - To surface a system-level error that requires action to resolve.
-- Do not use alerts for routine confirmations — use toast notifications instead.
+- Do not use alerts for routine confirmations - use [toast notifications](notifications-and-messaging) instead.
 - Do not stack multiple alerts. Consolidate if possible.
 
 ## Style
@@ -22,7 +22,7 @@ Alerts communicate important information that requires the user's attention. The
 - Lead with the most important information.
 - Use the appropriate severity: informational, success, warning, or error.
 - Include a clear action link or button when the user needs to do something.
-- Do not use "Alert:" or "Warning:" as a prefix in the message body — the icon and color convey severity.
+- Do not use `Alert:` or `Warning:` as a prefix in the message body - the icon and color convey severity.
 
 ## Behavior
 

@@ -12,7 +12,7 @@ Icons support communication by providing visual cues alongside or instead of tex
 
 - To supplement a text label and help users scan faster.
 - For icon-only controls (such as toolbar buttons) that have a visible tooltip or aria-label.
-- Do not use an icon as the only affordance for a critical action — always pair with a text label or tooltip.
+- Do not use an icon as the only affordance for a critical action - always pair with a text label or tooltip.
 
 ## Style
 

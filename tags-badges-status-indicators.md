@@ -6,7 +6,7 @@ nav_order: 18
 
 ---
 
-## 17.1 Tags
+## Tags
 
 ### When to use
 
@@ -16,11 +16,11 @@ To categorize or label items with metadata values such as topics, types, or user
 
 - Use sentence case.
 - Keep tag text to one to three words.
-- Do not use tags as action triggers — they are labels, not buttons.
+- Do not use tags as action triggers - they are labels, not buttons.
 
 ---
 
-## 17.2 Badges
+## Badges
 
 ### When to use
 

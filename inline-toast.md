@@ -12,13 +12,13 @@ An inline toast is a brief, non-blocking message displayed within a specific are
 
 - To confirm a localized action, such as copying a value or saving a field inline.
 - To surface a validation warning directly below or beside a specific form field.
-- Do not use an inline toast for global events — use the global toast or snackbar instead.
+- Do not use an inline toast for global events - use the global toast or snackbar instead.
 
 ## Style
 
 - One short sentence maximum. Ideally fewer than ten words.
-- Use present or past tense to confirm what happened. For example, "Copied" or "Saved."
-- Do not use inline toasts for error messages that require user action — use inline validation instead.
+- Use present or past tense to confirm what happened. For example, `Copied` or `Saved`.
+- Do not use inline toasts for error messages that require user action - use inline validation instead.
 
 ## Examples
 

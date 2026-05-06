@@ -6,7 +6,7 @@ nav_order: 15
 
 ---
 
-## 14.1 Notification
+## Notification
 
 ### When to use
 
@@ -17,17 +17,17 @@ To inform users of updates, background task completions, or events that require 
 - Use direct, concise language. One to two sentences.
 - Include a timestamp.
 - Include a link or action if the user must do something in response.
-- Do not use generic text like "You have a new notification."
+- Do not use generic text like `You have a new notification`.
 
 ---
 
-## 14.2 Tooltip
+## Tooltip
 
 ### When to use
 
 - To provide short contextual help on hover or focus.
 - For icon-only controls that require a label.
-- Do not use tooltips for critical information — users should not be required to hover to understand the UI.
+- Do not use tooltips for critical information - users should not be required to hover to understand the UI.
 
 ### Style
 
@@ -37,7 +37,7 @@ To inform users of updates, background task completions, or events that require 
 
 ---
 
-## 14.3 Toast / Snackbar
+## Toast / Snackbar
 
 ### When to use
 

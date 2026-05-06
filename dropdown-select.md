@@ -15,8 +15,8 @@ Dropdowns and select menus allow users to choose one option from a list. They ar
 
 ## Style
 
-- Label the button with a clear action or noun. For example, "Actions" or "More."
-- Menu items should follow the verb + noun formula. For example, "Download PDF," "Add tag," "Delete record."
+- Label the button with a clear action or noun. For example, `Actions` or `More`.
+- Menu items should follow the verb + noun formula. For example, `Download PDF`, `Add tag`, `Delete record`.
 - Use sentence case for all menu items.
 - Multi-selection dropdowns: include checkboxes, and selections should persist until the user closes the menu.
 

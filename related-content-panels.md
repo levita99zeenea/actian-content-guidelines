@@ -12,13 +12,13 @@ Related content panels surface assets or resources connected to the currently vi
 
 - On asset detail pages to surface downstream or upstream dependencies.
 - To show related documentation, reports, or catalog entries.
-- Do not use related content panels for primary navigation — they are supplementary.
+- Do not use related content panels for primary navigation - they are supplementary.
 
 ## Style
 
-- Panel heading describes the relationship type. For example, "Related datasets," "Used in reports."
+- Panel heading describes the relationship type. For example, `Related datasets`, `Used in reports`.
 - Each item in the panel shows the asset name as a link, plus one or two metadata attributes (type, owner, or last modified).
-- If the panel is empty, show a brief empty state message. For example, "No related datasets found."
+- If the panel is empty, show a brief empty state message. For example, `No related datasets found`.
 
 ## Do / Don't
 

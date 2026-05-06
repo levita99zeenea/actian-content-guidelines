@@ -8,7 +8,7 @@ Actian Data Intelligence speaks to data professionals: engineers, analysts, and 
 
 ---
 
-## 1.1 Voice and tone
+## Voice and tone
 
 **When to use:** Apply these guidelines to all UI copy, including labels, tooltips, empty states, error messages, and notifications.
 
@@ -18,7 +18,7 @@ Actian Data Intelligence speaks to data professionals: engineers, analysts, and 
 - Use present tense. "Saves automatically" not "Will save automatically."
 - Use sentence case for all UI text, including headings and button labels.
 - Do not use exclamation points except in genuine success states.
-- Do not use "please" or "sorry" — they add length without value.
+- Do not use "please" or "sorry" - they add length without value.
 
 ### Do / Don't
 
@@ -31,7 +31,7 @@ Actian Data Intelligence speaks to data professionals: engineers, analysts, and 
 
 ---
 
-## 1.2 Words to avoid
+## Words to avoid
 
 The following terms are banned from Actian product UI. Use the recommended alternatives.
 

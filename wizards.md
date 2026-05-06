@@ -10,13 +10,13 @@ Wizards are guided multi-step flows that walk users through complex setup or con
 
 ## When to use
 
-- For complex setup tasks that cannot be completed on a single form — for example, creating a connection, configuring a pipeline, or onboarding a new dataset.
+- For complex setup tasks that cannot be completed on a single form - for example, creating a connection, configuring a pipeline, or onboarding a new dataset.
 - When the steps have a natural sequence and later steps depend on earlier choices.
 - Do not use a wizard for simple tasks that can be completed in a single form or modal.
 
 ## Step titles
 
-- Short imperative verb phrases. For example, "Choose a connector," "Set connection details," "Test and save."
+- Short imperative verb phrases. For example, `Choose a connector`, `Set connection details`, `Test and save`.
 - Parallel structure across all steps.
 - Do not repeat the wizard title in each step title.
 
@@ -29,13 +29,13 @@ Wizards are guided multi-step flows that walk users through complex setup or con
 ## Confirmation and summary step
 
 - The final step before submission should present a summary of the user's choices.
-- Label the summary step "Review" or "Review and create."
-- Use the same attribute labels as the preceding form fields — do not rephrase.
+- Label the summary step `Review` or `Review and create`.
+- Use the same attribute labels as the preceding form fields - do not rephrase.
 - Show an edit link next to each section so the user can go back and change specific settings.
 
 ## Navigation buttons
 
-Follow the stepper button terminology guidelines. Use "Back," "Next," and the appropriate object-specific verb for the final step (for example, "Create connection").
+Follow the [stepper button terminology guidelines](stepper). Use `Back`, `Next`, and the appropriate object-specific verb for the final step (for example, `Create connection`).
 
 ## Do / Don't
 

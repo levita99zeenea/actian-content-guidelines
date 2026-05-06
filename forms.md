@@ -25,41 +25,51 @@ Forms collect or update user data. Consistent structure, clear labels, and helpf
 
 ---
 
-## 9.1 General form guidelines
+## General form guidelines
 
 ### How to use
 
 - Be concise and directive: each label or helper text should clearly describe the required action.
-- Use sentence case for labels and titles. For example, "Group name" not "Group Name."
+- Use sentence case for labels and titles.
+
+| Do | Don't |
+|---|---|
+| Group name | Group Name |
+{: .do-dont-table}
 - Clarify optional vs. required fields: mark required fields consistently using the asterisk (*) symbol or text label.
 - Avoid redundancy: if a section title already establishes context, field labels can be shorter.
 - Provide context when needed: helper text should explain the "why," never just restate the label.
-- Error text should guide correction. For example, "Enter a valid date" not "Invalid input."
-- Success or confirmation text should be brief, reassuring, and specific. For example, "The policy was successfully created."
+- Error text should guide correction.
+
+| Do | Don't |
+|---|---|
+| Enter a valid date | Invalid input |
+{: .do-dont-table}
+- Success or confirmation text should be brief, reassuring, and specific. For example, `The policy was successfully created`.
 - Use progressive disclosure for field entry assistance: Label → Tooltip → Descriptive text → Link to docs.
 
 ### Structure
 
 - Group related fields together under sections.
-- Always place the primary CTA at the bottom right for consistency.
-- Avoid multi-column layouts when possible — single column is easier to read. Exceptions such as separate fields for first and last names are acceptable.
+- Always place the primary **CTA** at the bottom right for consistency.
+- Avoid multi-column layouts when possible - single column is easier to read. Exceptions such as separate fields for first and last names are acceptable.
 
 ### Behavior
 
 - Labels should be visible even when the field is in focus.
-- Include placeholder text only when it provides value — never to just repeat the label.
-- The primary CTA should be disabled until all required fields are filled.
-- Validate fields inline and provide red error text below the field.
+- Include placeholder text only when it provides value - never to just repeat the label.
+- The primary **CTA** should be disabled until all required fields are filled.
+- Validate fields inline and provide red error text below the field. See [validation messages](validation-messages) for error text guidelines.
 
 ---
 
-## 9.2 Input labels and helper text
+## Input labels and helper text
 
 ### Style
 
 - Labels describe the purpose of the field. They are always visible.
 - Helper text provides brief instruction or clarification below the field. Use it sparingly.
-- Placeholder text is a hint only — never a substitute for a label. It disappears when the user starts typing.
+- Placeholder text is a hint only - never a substitute for a label. It disappears when the user starts typing.
 
 ### Do / Don't
 
@@ -71,7 +81,7 @@ Forms collect or update user data. Consistent structure, clear labels, and helpf
 
 ---
 
-## 9.3 Dropdown
+## Dropdown
 
 ### When to use
 
@@ -87,7 +97,7 @@ Forms collect or update user data. Consistent structure, clear labels, and helpf
 
 ---
 
-## 9.4 Calendar
+## Calendar
 
 The calendar component is used for any interaction involving date ranges, filtering, or scheduling.
 
@@ -97,7 +107,7 @@ For any interaction involving date ranges, filtering, or scheduling.
 
 ### Style
 
-- Use labels like "From" and "To," or "Start date" and "End date" for range fields. Do not leave any fields unlabeled.
+- Use labels like `From` and `To`, or `Start date` and `End date` for range fields. Do not leave any fields unlabeled.
 - Display date formats clearly (MM/DD/YYYY or regional format) with placeholders or hints where appropriate.
 - Do not pre-fill dates for users.
 
@@ -110,18 +120,18 @@ For any interaction involving date ranges, filtering, or scheduling.
 
 ---
 
-## 9.5 Toggle
+## Toggle
 
 ### Style
 
-- Label the toggle next to or above the control. For example, "Enable alerts."
-- Show the label for the state that is currently active. For example, show "Off" when off, "On" when on — but not both at the same time.
+- Label the toggle next to or above the control. For example, `Enable alerts`.
+- Show the label for the state that is currently active. For example, show `Off` when off, `On` when on - but not both at the same time.
 
 ### Behavior
 
 - The action should happen on toggle with no confirmation step.
 - Left = off, right = on.
-- Should update instantly unless a delay is unavoidable — show a loading indicator if delayed.
+- Should update instantly unless a delay is unavoidable - show a loading indicator if delayed.
 - Do not use toggles for destructive or irreversible actions.
 
 ### Toggle vs Checkbox vs Radio button
@@ -131,14 +141,14 @@ For any interaction involving date ranges, filtering, or scheduling.
 - It represents a system state (for example, ON/OFF, enabled/disabled).
 - It is a binary setting that persists (for example, dark mode, notifications).
 
-**Use a checkbox when:**
+**Use a [checkbox](checkboxes) when:**
 - The user is selecting one or more items.
 - The action does not take effect immediately (typically part of a form or group submission).
-- It is a yes/no decision that is reviewed later. For example, "Agree to terms and conditions" or "Subscribe to newsletter."
+- It is a yes/no decision that is reviewed later. For example, `Agree to terms and conditions` or `Subscribe to newsletter`.
 
 ---
 
-## 9.6 Radio button
+## Radio button
 
 ### When to use
 
@@ -148,14 +158,14 @@ For any interaction involving date ranges, filtering, or scheduling.
 ### Style
 
 - Use short, descriptive labels that clearly state each option.
-- Write labels as direct answers to the group's prompt or question. For example, "Yes / No" instead of "Select yes if you agree."
+- Write labels as direct answers to the group's prompt or question. For example, `Yes / No` instead of `Select yes if you agree`.
 - Ensure the group label or question is always visible next to the options.
 - Avoid jargon or abbreviations.
-- Keep labels parallel in structure — all nouns, or all verb phrases.
+- Keep labels parallel in structure - all nouns, or all verb phrases.
 
 ---
 
-## 9.7 Radio button card format
+## Radio button card format
 
 Use card-format radio buttons instead of traditional radio buttons when each option needs rich context such as a title, description, image, metadata, or tags, and the selection should feel like a visual choice rather than a text label.
 
@@ -166,7 +176,7 @@ Use card-format radio buttons instead of traditional radio buttons when each opt
 
 ### Behavior
 
-- Indicate selected state visually ("Selected" highlight border, and so on).
+- Indicate selected state visually (`Selected` highlight border, and so on).
 - Click anywhere on the tile to toggle selection.
 - For multi-select: use checkbox behavior. For single-select: use radio group behavior.
 - Maintain selection across steps if part of a multi-step process.

@@ -10,7 +10,7 @@ The What's New section summarizes recent product changes. It is product communic
 
 ## Style
 
-- Group updates by category (for example, "Data catalog," "Connections," "Performance").
+- Group updates by category (for example, `Data catalog`, `Connections`, `Performance`).
 - Use past tense to describe what changed. For example, "Added support for..." or "Fixed an issue where..."
 - Do not use marketing adjectives like "powerful," "seamless," or "game-changing."
 - Keep each item to one to two sentences.

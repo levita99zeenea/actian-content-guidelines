@@ -15,13 +15,13 @@ Lineage views display the origin, transformation history, and downstream depende
 
 ## Node labels
 
-- Use the exact asset name as the node label — do not paraphrase or abbreviate.
-- Include the asset type as a secondary label below the name. For example, "Orders" with "Table" below it.
+- Use the exact asset name as the node label - do not paraphrase or abbreviate.
+- Include the asset type as a secondary label below the name. For example, `Orders` with `Table` below it.
 - Use sentence case for all labels.
 
 ## Edge and relationship labels
 
-- Describe the relationship with a short verb phrase. For example, "Reads from," "Writes to," "Transforms."
+- Describe the relationship with a short verb phrase. For example, `Reads from`, `Writes to`, `Transforms`.
 - Avoid technical jargon that non-engineer users will not understand.
 
 ## Terminology

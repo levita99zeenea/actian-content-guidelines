@@ -6,13 +6,13 @@ nav_order: 16
 
 ---
 
-## 15.1 Global header
+## Global header
 
 ### When to use
 
 Permanently anchored to the top of the screen across all pages and apps, for access when users:
 - Switch between product areas or catalogs.
-- Access global tools such as search or notifications.
+- Access global tools such as [search](search) or notifications.
 - View account and profile options.
 
 ### Style
@@ -26,7 +26,7 @@ Nav elements should be adapted to reflect the current app (Studio, Explorer, Adm
 
 ---
 
-## 15.2 Side nav
+## Side nav
 
 ### When to use
 
@@ -45,7 +45,7 @@ Permanently anchored (though collapsible) to the left side of all apps in which 
 
 ---
 
-## 15.3 Breadcrumbs
+## Breadcrumbs
 
 ### Usage
 
@@ -55,11 +55,11 @@ Follow the pattern: Main component / Sub component / Specific item or page name.
 
 - Use the exact page or item name at each level.
 - Do not truncate unless space is severely limited.
-- The current page is not a link — it is plain text at the end of the breadcrumb trail.
+- The current page is not a link - it is plain text at the end of the breadcrumb trail.
 
 ---
 
-## 15.4 Tabs
+## Tabs
 
 ### When to use
 
@@ -67,15 +67,15 @@ To switch between related views on the same page without full navigation.
 
 ### Style
 
-- Tab labels are short nouns or noun phrases. For example, "Overview," "Lineage," "Settings."
+- Tab labels are short nouns or noun phrases. For example, `Overview`, `Lineage`, `Settings`.
 - Use sentence case.
 - Avoid verbs in tab labels.
 
 ---
 
-## 15.5 Pagination
+## Pagination
 
 ### Style
 
-- Label page controls plainly. Use "Previous" and "Next."
-- Show total result count when relevant. For example, "Showing 1–25 of 340 results."
+- Label page controls plainly. Use `Previous` and `Next`.
+- Show total result count when relevant. For example, `Showing 1–25 of 340 results`.

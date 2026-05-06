@@ -1,4 +1,4 @@
----
+﻿---
 title: Home
 nav_order: 0
 description: "UI writing standards for the Actian Data Intelligence platform"
@@ -33,7 +33,7 @@ The most commonly referenced sections. Each covers when to use a component, styl
   </a>
   <a href="validation-messages" class="rule-card">
     <div class="rule-label">Validation messages</div>
-    <div class="rule-value">Validate on blur, not keystroke. Say what's wrong and how to fix it — no "Invalid"</div>
+    <div class="rule-value">Validate on blur, not keystroke. Say what's wrong and how to fix it - no "Invalid"</div>
   </a>
   <a href="data-tables" class="rule-card">
     <div class="rule-label">Data tables</div>
@@ -45,7 +45,7 @@ The most commonly referenced sections. Each covers when to use a component, styl
   </a>
   <a href="notifications-and-messaging" class="rule-card">
     <div class="rule-label">Notifications &amp; messaging</div>
-    <div class="rule-value">Toasts, tooltips, popovers, and notification copy — length and action rules</div>
+    <div class="rule-value">Toasts, tooltips, popovers, and notification copy - length and action rules</div>
   </a>
 </div>
 
@@ -59,9 +59,9 @@ Run through this before any UI copy review:
 - [ ] No "please," "sorry," "ensure," "execute," "abort," "sign in," or other [banned words](global-guidelines)
 - [ ] Buttons use verb + object ("Create report," not "Report")
 - [ ] No terminal punctuation on buttons, labels, menu items, or column headers
-- [ ] Placeholder text models input — never repeats the label
+- [ ] Placeholder text models input - never repeats the label
 - [ ] Error messages say what went wrong and how to fix it (no "Invalid")
-- [ ] Empty states include a headline, body sentence, and one CTA
+- [ ] Empty states include a headline, body sentence, and one **CTA**
 - [ ] Destructive actions confirmed with title that names the action ("Delete connection")
 
 ---

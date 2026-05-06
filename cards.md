@@ -8,7 +8,7 @@ Cards present information in compact, scannable formats and allow users to inter
 
 ---
 
-## 7.1 Card — Item
+## Card - Item
 
 ### When to use
 
@@ -28,7 +28,7 @@ Cards present information in compact, scannable formats and allow users to inter
 
 ---
 
-## 7.2 Card — Selectable
+## Card - Selectable
 
 ### When to use
 
@@ -45,7 +45,7 @@ Cards present information in compact, scannable formats and allow users to inter
 
 ---
 
-## 7.3 Card — Topic
+## Card - Topic
 
 ### When to use
 
