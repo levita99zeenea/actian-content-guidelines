@@ -1,0 +1,25 @@
+<!-- Google Fonts: Roboto + Roboto Mono -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<!-- Do / Don't table class detection -->
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var tables = document.querySelectorAll('.main-content table');
+    tables.forEach(function (table) {
+      var headers = table.querySelectorAll('thead th');
+      if (headers.length >= 2) {
+        var first  = headers[0].textContent.trim().toLowerCase();
+        var second = headers[1].textContent.trim().toLowerCase();
+        if (
+          (first === 'do'  && second === "don't") ||
+          (first === 'do'  && second === 'dont')  ||
+          (first === 'use' && second === 'avoid')
+        ) {
+          table.classList.add('do-dont-table');
+        }
+      }
+    });
+  });
+</script>

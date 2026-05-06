@@ -1,0 +1,463 @@
+// ============================================================
+// Actian Content Guidelines — Custom Theme
+// Built on just-the-docs with Actian Design System tokens
+// ============================================================
+
+// ── Actian tokens as CSS custom properties ──
+:root {
+  --actian-brand-primary:       #0550DC;
+  --actian-brand-secondary:     #EDF6FF;
+  --actian-bg-reverse:          #12131F;
+  --actian-bg-grey-1:           #FBFBFF;
+  --actian-bg-grey-2:           #F5F5FA;
+  --actian-text-primary:        #000000;
+  --actian-text-secondary:      #3F3F4A;
+  --actian-text-tertiary:       #595968;
+  --actian-border:              #E8E8F0;
+  --actian-success:             #047800;
+  --actian-success-bg:          #D3EFCD;
+  --actian-success-bg-light:    #F0FFF0;
+  --actian-error:               #C12C11;
+  --actian-error-bg:            #FFDACF;
+  --actian-error-bg-light:      #FFF5F3;
+  --actian-warning:             #D27B00;
+  --actian-warning-bg:          #FFEBCE;
+  --actian-info:                #00699F;
+  --actian-info-bg:             #CFEAFD;
+  --actian-shadow-xs:           0px 1px 3px 1px rgba(0,0,15,0.06), 0px 1px 5px 0px rgba(0,0,18,0.07);
+  --actian-shadow-sm:           0px 1px 7px 3px rgba(0,0,20,0.08), 0px 1px 3px 1px rgba(0,0,31,0.12);
+  --actian-radius:              6px;
+  --actian-radius-md:           8px;
+}
+
+// ── Typography ──
+body {
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--actian-text-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  color: var(--actian-text-primary);
+  letter-spacing: -0.01em;
+}
+
+.main-content {
+  h1 {
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 600;
+    border-bottom: 2px solid var(--actian-brand-primary);
+    padding-bottom: 12px;
+    margin-bottom: 24px;
+  }
+
+  h2 {
+    font-size: 18px;
+    line-height: 1.35;
+    font-weight: 600;
+    margin-top: 36px;
+    margin-bottom: 12px;
+    color: var(--actian-text-primary);
+  }
+
+  h3 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 24px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--actian-text-tertiary);
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 1.65;
+    color: var(--actian-text-secondary);
+    margin-bottom: 16px;
+  }
+
+  li {
+    font-size: 14px;
+    line-height: 1.65;
+    color: var(--actian-text-secondary);
+    margin-bottom: 4px;
+  }
+
+  code {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
+    background: var(--actian-bg-grey-2);
+    color: var(--actian-text-secondary);
+    padding: 1px 5px;
+    border-radius: 3px;
+  }
+
+  strong {
+    font-weight: 600;
+    color: var(--actian-text-primary);
+  }
+
+  // Horizontal rules → subtle section dividers
+  hr {
+    border: none;
+    border-top: 1px solid var(--actian-border);
+    margin: 28px 0;
+  }
+}
+
+// ── Site Header ──
+.site-header {
+  background-color: var(--actian-bg-reverse) !important;
+  border-bottom: none;
+  box-shadow: 0 1px 0 rgba(255,255,255,0.08);
+
+  .site-title {
+    color: #FFFFFF !important;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+
+    &::before {
+      content: '';
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      background: var(--actian-brand-primary);
+      border-radius: 2px;
+      margin-right: 10px;
+      vertical-align: middle;
+      position: relative;
+      top: -1px;
+    }
+  }
+
+  .site-button,
+  .site-nav .nav-list-link {
+    color: rgba(255,255,255,0.75) !important;
+    &:hover { color: #FFFFFF !important; }
+  }
+}
+
+// ── Search ──
+.search-input {
+  background: rgba(255,255,255,0.1) !important;
+  color: #FFFFFF !important;
+  border-color: rgba(255,255,255,0.2) !important;
+  border-radius: var(--actian-radius);
+
+  &::placeholder { color: rgba(255,255,255,0.5) !important; }
+  &:focus {
+    background: rgba(255,255,255,0.15) !important;
+    border-color: var(--actian-brand-primary) !important;
+    box-shadow: 0 0 0 2px rgba(5,80,220,0.3) !important;
+  }
+}
+
+.search-results-wrap {
+  border-radius: var(--actian-radius-md);
+  box-shadow: var(--actian-shadow-sm);
+}
+
+// ── Left Navigation ──
+.side-bar {
+  background-color: var(--actian-bg-grey-1);
+  border-right: 1px solid var(--actian-border);
+
+  .nav-list {
+    padding: 8px 0;
+
+    .nav-list-item {
+      .nav-list-link {
+        font-size: 13px;
+        color: var(--actian-text-secondary);
+        border-radius: var(--actian-radius);
+        margin: 1px 8px;
+        padding: 5px 10px;
+        transition: background 0.1s, color 0.1s;
+
+        &:hover {
+          background: var(--actian-brand-secondary);
+          color: var(--actian-brand-primary);
+        }
+
+        &.active {
+          background: var(--actian-brand-secondary);
+          color: var(--actian-brand-primary);
+          font-weight: 600;
+          border-left: 3px solid var(--actian-brand-primary);
+          padding-left: 7px;
+        }
+      }
+    }
+  }
+
+  // Section group labels
+  .nav-category {
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--actian-text-tertiary);
+    padding: 16px 18px 4px;
+  }
+}
+
+// ── All Tables — general Actian styling ──
+.main-content table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: var(--actian-radius-md);
+  overflow: hidden;
+  font-size: 13px;
+  margin: 20px 0 28px;
+  box-shadow: var(--actian-shadow-xs);
+  border: 1px solid var(--actian-border);
+
+  thead {
+    th {
+      background: var(--actian-bg-grey-2);
+      color: var(--actian-text-secondary);
+      font-weight: 600;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      padding: 10px 14px;
+      border-bottom: 2px solid var(--actian-border);
+      text-align: left;
+    }
+  }
+
+  tbody {
+    tr {
+      border-bottom: 1px solid var(--actian-border);
+      transition: background 0.1s;
+
+      &:last-child { border-bottom: none; }
+      &:hover { background: var(--actian-bg-grey-1); }
+
+      td {
+        padding: 10px 14px;
+        vertical-align: top;
+        line-height: 1.55;
+        color: var(--actian-text-secondary);
+      }
+    }
+  }
+}
+
+// ── Do / Don't tables ──
+// Applied via JS in head_custom.html
+.do-dont-table {
+  box-shadow: none;
+  border: none;
+  overflow: visible;
+
+  thead th:first-child {
+    background: var(--actian-success-bg);
+    color: var(--actian-success);
+    border-bottom: 2px solid var(--actian-success);
+
+    &::before {
+      content: '✓ ';
+      font-weight: 700;
+    }
+  }
+
+  thead th:last-child {
+    background: var(--actian-error-bg);
+    color: var(--actian-error);
+    border-bottom: 2px solid var(--actian-error);
+
+    &::before {
+      content: '✕ ';
+      font-weight: 700;
+    }
+  }
+
+  tbody {
+    tr td:first-child {
+      background: var(--actian-success-bg-light);
+      border-left: 3px solid var(--actian-success);
+      color: var(--actian-text-primary);
+    }
+
+    tr td:last-child {
+      background: var(--actian-error-bg-light);
+      border-left: 3px solid var(--actian-error);
+      color: var(--actian-text-tertiary);
+      text-decoration: none;
+    }
+
+    tr:hover td:first-child { background: #e6ffe6; }
+    tr:hover td:last-child  { background: #fff0ed; }
+  }
+}
+
+// ── Callout / Note blocks ──
+// Usage in markdown: > **Note:** text
+.main-content blockquote {
+  background: var(--actian-brand-secondary);
+  border-left: 4px solid var(--actian-brand-primary);
+  border-radius: 0 var(--actian-radius) var(--actian-radius) 0;
+  margin: 20px 0;
+  padding: 14px 18px;
+  box-shadow: none;
+
+  p {
+    margin: 0;
+    color: var(--actian-text-secondary);
+    font-size: 14px;
+  }
+
+  strong:first-child {
+    color: var(--actian-brand-primary);
+  }
+}
+
+// ── Links ──
+.main-content a {
+  color: var(--actian-brand-primary);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s;
+
+  &:hover {
+    border-bottom-color: var(--actian-brand-primary);
+  }
+}
+
+// ── Breadcrumbs ──
+.breadcrumb-nav {
+  font-size: 12px;
+  color: var(--actian-text-tertiary);
+
+  .breadcrumb-nav-list-item a {
+    color: var(--actian-text-tertiary);
+    &:hover { color: var(--actian-brand-primary); }
+  }
+}
+
+// ── Prev / Next navigation ──
+.page-nav-buttons {
+  .btn {
+    border-radius: var(--actian-radius);
+    font-size: 13px;
+    font-weight: 500;
+    border: 1px solid var(--actian-border);
+    color: var(--actian-text-secondary);
+    background: var(--actian-bg-grey-1);
+    box-shadow: var(--actian-shadow-xs);
+    transition: border-color 0.15s, color 0.15s, background 0.15s;
+
+    &:hover {
+      border-color: var(--actian-brand-primary);
+      color: var(--actian-brand-primary);
+      background: var(--actian-brand-secondary);
+    }
+  }
+}
+
+// ── Aux links (GitHub top-right) ──
+.aux-nav-list-item a {
+  font-size: 12px;
+  color: rgba(255,255,255,0.65) !important;
+  font-weight: 500;
+  &:hover { color: #FFFFFF !important; }
+}
+
+// ── Footer ──
+.site-footer {
+  font-size: 12px;
+  color: var(--actian-text-tertiary);
+  border-top: 1px solid var(--actian-border);
+  padding: 16px 0;
+}
+
+// ── Homepage hero (class applied in index.md) ──
+.actian-hero {
+  background: linear-gradient(135deg, var(--actian-bg-reverse) 0%, #1a2040 100%);
+  border-radius: var(--actian-radius-md);
+  padding: 40px 48px;
+  margin-bottom: 40px;
+  color: #FFFFFF;
+
+  h1 {
+    color: #FFFFFF !important;
+    font-size: 28px !important;
+    font-weight: 700 !important;
+    border: none !important;
+    padding: 0 !important;
+    margin-bottom: 12px !important;
+  }
+
+  p {
+    color: rgba(255,255,255,0.75) !important;
+    font-size: 16px !important;
+    margin: 0 !important;
+    max-width: 520px;
+  }
+}
+
+.actian-quick-rules {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+  margin: 28px 0;
+
+  .rule-card {
+    background: var(--actian-bg-grey-1);
+    border: 1px solid var(--actian-border);
+    border-radius: var(--actian-radius-md);
+    padding: 16px 20px;
+    box-shadow: var(--actian-shadow-xs);
+
+    .rule-label {
+      font-size: 10px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--actian-brand-primary);
+      margin-bottom: 6px;
+    }
+
+    .rule-value {
+      font-size: 13px;
+      color: var(--actian-text-secondary);
+      line-height: 1.5;
+    }
+  }
+}
+
+// ── Badge / chip for status indicators ──
+.badge {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 99px;
+  letter-spacing: 0.03em;
+
+  &.badge-new { background: var(--actian-info-bg); color: var(--actian-info); }
+  &.badge-draft { background: var(--actian-warning-bg); color: var(--actian-warning); }
+  &.badge-complete { background: var(--actian-success-bg); color: var(--actian-success); }
+}
+
+// ── Responsive ──
+@media (max-width: 800px) {
+  .actian-hero {
+    padding: 28px 24px;
+    h1 { font-size: 22px !important; }
+    p  { font-size: 14px !important; }
+  }
+
+  .actian-quick-rules {
+    grid-template-columns: 1fr;
+  }
+}

@@ -5,9 +5,37 @@ description: "UI writing standards for the Actian Data Intelligence platform"
 permalink: /
 ---
 
-# Actian Content Guidelines
+<div class="actian-hero">
+  <h1>Actian Content Guidelines</h1>
+  <p>UI writing standards for the Actian Data Intelligence platform. Source of truth for writers, designers, and product teams.</p>
+</div>
 
-UI writing standards for the **Actian Data Intelligence** platform. Source of truth for writers, designers, and product teams.
+<div class="actian-quick-rules">
+  <div class="rule-card">
+    <div class="rule-label">Casing</div>
+    <div class="rule-value">Sentence case for all UI text — buttons, labels, headings, tooltips</div>
+  </div>
+  <div class="rule-card">
+    <div class="rule-label">Buttons</div>
+    <div class="rule-value">Verb + object: "Create report," "Delete dataset," "Add connection"</div>
+  </div>
+  <div class="rule-card">
+    <div class="rule-label">Punctuation</div>
+    <div class="rule-value">No terminal punctuation on buttons, labels, menu items, or column headers</div>
+  </div>
+  <div class="rule-card">
+    <div class="rule-label">Placeholders</div>
+    <div class="rule-value">Examples only — never a substitute for a visible label</div>
+  </div>
+  <div class="rule-card">
+    <div class="rule-label">Validation</div>
+    <div class="rule-value">Say what's wrong and how to fix it — no "Invalid," no "Please"</div>
+  </div>
+  <div class="rule-card">
+    <div class="rule-label">Empty states</div>
+    <div class="rule-value">Headline + one-sentence body + one primary CTA</div>
+  </div>
+</div>
 
 ---
 
@@ -21,20 +49,6 @@ Each section covers a specific UI component and follows a consistent structure:
 - **Do / Don't** — side-by-side examples of correct and incorrect usage
 
 Use the sidebar to navigate to any section, or search by keyword using the search bar above.
-
----
-
-## Quick rules
-
-| Rule | Guideline |
-|---|---|
-| Casing | Sentence case for all UI text — buttons, labels, headings, tooltips |
-| Buttons | Verb + object: "Create report," "Delete dataset," "Add connection" |
-| Punctuation | No terminal punctuation on buttons, labels, menu items, or column headers |
-| Placeholder text | Examples only — never a substitute for a visible label |
-| Validation messages | Say what's wrong and how to fix it — no "Invalid," no "Please" |
-| Empty states | Headline + one-sentence body + one primary CTA |
-| Banned words | please, sorry, ensure, execute, abort, sign in, CTA, agnostic, disabled |
 
 ---
 
