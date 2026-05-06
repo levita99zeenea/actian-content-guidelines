@@ -22,9 +22,9 @@ A stepper guides users through a multi-step process in a defined sequence. Each 
 
 ## Navigation buttons
 
-- Use `Back` for the previous step button. Do not use `Previous`.
-- Use `Next` for all intermediate steps.
-- Use `Create` (or the appropriate object-specific verb) for the final step - not `Finish`, `Done`, or `Submit`.
+- Use **Back** for the previous step button. Do not use **Previous**.
+- Use **Next** for all intermediate steps.
+- Use **Create** (or the appropriate object-specific verb) for the final step - not **Finish**, **Done**, or **Submit**.
 - See the [Buttons](buttons) section for full stepper button terminology.
 
 ## Do / Don't

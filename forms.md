@@ -51,14 +51,14 @@ Forms collect or update user data. Consistent structure, clear labels, and helpf
 ### Structure
 
 - Group related fields together under sections.
-- Always place the primary **CTA** at the bottom right for consistency.
+- Always place the primary CTA at the bottom right for consistency.
 - Avoid multi-column layouts when possible - single column is easier to read. Exceptions such as separate fields for first and last names are acceptable.
 
 ### Behavior
 
 - Labels should be visible even when the field is in focus.
 - Include placeholder text only when it provides value - never to just repeat the label.
-- The primary **CTA** should be disabled until all required fields are filled.
+- The primary CTA should be disabled until all required fields are filled.
 - Validate fields inline and provide red error text below the field. See [validation messages](validation-messages) for error text guidelines.
 
 ---

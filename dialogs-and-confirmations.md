@@ -21,8 +21,8 @@ Before irreversible or destructive actions (delete, remove, reset).
 | Delete connection | This is permanent |
 {: .do-dont-table}
 - Body: one sentence stating what will happen and whether it can be undone.
-- Primary **CTA**: matches the title verb. For example, `Delete`.
-- Secondary **CTA**: `Cancel`.
+- Primary CTA: matches the title verb. For example, **Delete**.
+- Secondary CTA: **Cancel**.
 
 ### Do / Don't
 

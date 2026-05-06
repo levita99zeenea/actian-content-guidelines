@@ -61,7 +61,7 @@ Run through this before any UI copy review:
 - [ ] No terminal punctuation on buttons, labels, menu items, or column headers
 - [ ] Placeholder text models input - never repeats the label
 - [ ] Error messages say what went wrong and how to fix it (no "Invalid")
-- [ ] Empty states include a headline, body sentence, and one **CTA**
+- [ ] Empty states include a headline, body sentence, and one CTA
 - [ ] Destructive actions confirmed with title that names the action ("Delete connection")
 
 ---
