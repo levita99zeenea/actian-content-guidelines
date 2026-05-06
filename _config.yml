@@ -1,0 +1,32 @@
+remote_theme: just-the-docs/just-the-docs@v0.10.0
+
+title: Actian Content Guidelines
+description: UI writing standards for the Actian Data Intelligence platform
+url: https://levita99zeenea.github.io
+baseurl: /actian-content-guidelines
+
+# Navigation
+nav_sort: case_sensitive
+search_enabled: true
+heading_anchors: true
+
+# Color scheme
+color_scheme: light
+
+# Footer
+footer_content: "Actian Data Intelligence &mdash; Content Guidelines"
+
+# Aux links (top right)
+aux_links:
+  "GitHub":
+    - "https://github.com/levita99zeenea/actian-content-guidelines"
+aux_links_new_tab: true
+
+# Exclude from nav
+nav_exclude_generators:
+  - format-spec.md
+
+# Plugins required by just-the-docs
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
