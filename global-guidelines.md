@@ -1,5 +1,6 @@
 ﻿---
 title: "Global guidelines"
+nav_order: 1
 ---
 # Global guidelines
 

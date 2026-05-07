@@ -4,22 +4,30 @@
   Assigns to: nav_sorted.
 
   Sort order:
-    1. Pages with nav_order < 9000  — pinned first (sorted by nav_order); Home uses nav_order: 0
-    2. Pages with no nav_order      — sorted alphabetically by title (all content sections)
-    3. Pages with nav_order >= 9000 — pinned last (sorted by nav_order); Index uses nav_order: 9999
+    1. nav_order < 9000  — pinned first, sorted by nav_order
+                           Home = nav_order: 0, Global guidelines = nav_order: 1
+    2. no nav_order      — sorted alphabetically by title (all content sections)
+    3. nav_order >= 9000 — pinned last, sorted by nav_order
+                           Index = nav_order: 9999
 {%- endcomment -%}
 
 {%- assign empty_array = "" | split: "" -%}
 
-{%- assign pin_first_pages = include.pages
-      | where_exp: "item", "item.nav_order != nil and item.nav_order < 9000" -%}
+{%- comment -%} Separate pages that have nav_order from those that don't -%}
+{%- assign has_order_pages = include.pages
+      | where_exp: "item", "item.nav_order != nil" -%}
 
 {%- assign alpha_pages = include.pages
       | where_exp: "item", "item.nav_order == nil" -%}
 
-{%- assign pin_last_pages = include.pages
-      | where_exp: "item", "item.nav_order != nil and item.nav_order >= 9000" -%}
+{%- comment -%} Split has_order_pages into pinned-first and pinned-last buckets -%}
+{%- assign pin_first_pages = has_order_pages
+      | where_exp: "item", "item.nav_order < 9000" -%}
 
+{%- assign pin_last_pages = has_order_pages
+      | where_exp: "item", "item.nav_order >= 9000" -%}
+
+{%- comment -%} Sort each bucket -%}
 {%- unless pin_first_pages == empty -%}
   {%- assign pin_first_pages = pin_first_pages | sort: "nav_order" -%}
 {%- endunless -%}
