@@ -1,5 +1,6 @@
 ﻿---
 title: "Data tables"
+nav_order: 8
 ---
 # Data tables
 

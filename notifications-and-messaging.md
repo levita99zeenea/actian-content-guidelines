@@ -1,5 +1,6 @@
 ﻿---
 title: "Notifications and messaging"
+nav_order: 23
 ---
 # Notifications and messaging
 

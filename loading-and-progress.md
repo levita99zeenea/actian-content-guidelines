@@ -1,5 +1,6 @@
 ﻿---
 title: "Loading and progress"
+nav_order: 19
 ---
 # Loading and progress
 

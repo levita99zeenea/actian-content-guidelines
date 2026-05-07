@@ -1,5 +1,6 @@
 ﻿---
 title: "Alerts"
+nav_order: 3
 ---
 # Alerts
 

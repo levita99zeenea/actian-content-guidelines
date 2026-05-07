@@ -1,6 +1,6 @@
----
+﻿---
 title: "Index"
-nav_order: 9999
+nav_order: 39
 ---
 # Content guidelines index
 

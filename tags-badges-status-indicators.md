@@ -1,5 +1,6 @@
 ﻿---
 title: "Tags, badges, and status indicators"
+nav_order: 33
 ---
 # Tags, badges, and status indicators
 

@@ -1,6 +1,6 @@
 ﻿---
 title: Home
-nav_order: 0
+nav_order: 1
 description: "UI writing standards for the Actian Data Intelligence platform"
 permalink: /
 ---

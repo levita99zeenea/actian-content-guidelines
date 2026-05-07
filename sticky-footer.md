@@ -1,5 +1,6 @@
 ﻿---
 title: "Sticky footer"
+nav_order: 30
 ---
 # Sticky footer
 
