@@ -1,6 +1,5 @@
 ﻿---
 title: "Buttons"
-nav_order: 3
 ---
 # Buttons
 

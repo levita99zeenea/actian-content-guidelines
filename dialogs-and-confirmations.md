@@ -1,6 +1,5 @@
 ﻿---
 title: "Dialogs and confirmations"
-nav_order: 19
 ---
 # Dialogs and confirmations
 

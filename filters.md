@@ -1,6 +1,5 @@
 ﻿---
 title: "Filters"
-nav_order: 7
 ---
 # Filters
 

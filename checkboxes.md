@@ -1,6 +1,5 @@
 ﻿---
 title: "Checkboxes"
-nav_order: 5
 ---
 # Checkboxes
 

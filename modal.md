@@ -1,6 +1,5 @@
 ﻿---
 title: "Modal"
-nav_order: 12
 ---
 # Modal
 

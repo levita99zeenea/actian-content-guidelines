@@ -1,6 +1,5 @@
 ﻿---
 title: "Cards"
-nav_order: 8
 ---
 # Cards
 

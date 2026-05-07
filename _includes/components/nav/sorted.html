@@ -1,0 +1,41 @@
+{%- comment -%}
+  Custom nav sort override for Actian Content Guidelines.
+  Include as: {%- include components/nav/sorted.html pages=page_array -%}
+  Assigns to: nav_sorted.
+
+  Sort order:
+    1. Pages with nav_order < 9000  — pinned first (sorted by nav_order); Home uses nav_order: 0
+    2. Pages with no nav_order      — sorted alphabetically by title (all content sections)
+    3. Pages with nav_order >= 9000 — pinned last (sorted by nav_order); Index uses nav_order: 9999
+{%- endcomment -%}
+
+{%- assign empty_array = "" | split: "" -%}
+
+{%- assign pin_first_pages = include.pages
+      | where_exp: "item", "item.nav_order != nil and item.nav_order < 9000" -%}
+
+{%- assign alpha_pages = include.pages
+      | where_exp: "item", "item.nav_order == nil" -%}
+
+{%- assign pin_last_pages = include.pages
+      | where_exp: "item", "item.nav_order != nil and item.nav_order >= 9000" -%}
+
+{%- unless pin_first_pages == empty -%}
+  {%- assign pin_first_pages = pin_first_pages | sort: "nav_order" -%}
+{%- endunless -%}
+
+{%- unless pin_last_pages == empty -%}
+  {%- assign pin_last_pages = pin_last_pages | sort: "nav_order" -%}
+{%- endunless -%}
+
+{%- unless alpha_pages == empty -%}
+  {%- if site.nav_sort == 'case_insensitive' -%}
+    {%- assign alpha_pages = alpha_pages | sort_natural: "title" -%}
+  {%- else -%}
+    {%- assign alpha_pages = alpha_pages | sort: "title" -%}
+  {%- endif -%}
+{%- endunless -%}
+
+{%- assign nav_sorted = pin_first_pages
+      | concat: alpha_pages
+      | concat: pin_last_pages -%}

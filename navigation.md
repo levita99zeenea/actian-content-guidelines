@@ -1,6 +1,5 @@
 ﻿---
 title: "Navigation"
-nav_order: 16
 ---
 # Navigation
 

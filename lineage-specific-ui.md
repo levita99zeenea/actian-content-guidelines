@@ -1,6 +1,5 @@
 ﻿---
 title: "Lineage-specific UI"
-nav_order: 28
 ---
 # Lineage-specific UI
 

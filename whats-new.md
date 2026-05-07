@@ -1,6 +1,5 @@
 ﻿---
 title: "What's new"
-nav_order: 21
 ---
 # What's new
 

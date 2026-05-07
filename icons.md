@@ -1,6 +1,5 @@
 ﻿---
 title: "Icons"
-nav_order: 26
 ---
 # Icons
 

@@ -1,6 +1,5 @@
 ﻿---
 title: "Combo box"
-nav_order: 23
 ---
 # Combo box
 

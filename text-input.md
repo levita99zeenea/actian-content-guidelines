@@ -1,6 +1,5 @@
 ﻿---
 title: "Text input"
-nav_order: 14
 ---
 # Text input
 

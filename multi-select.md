@@ -1,6 +1,5 @@
 ﻿---
 title: "Multi-select"
-nav_order: 29
 ---
 # Multi-select
 

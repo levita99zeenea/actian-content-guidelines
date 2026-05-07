@@ -1,6 +1,5 @@
 ﻿---
 title: "Tables"
-nav_order: 35
 ---
 # Tables
 

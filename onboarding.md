@@ -1,6 +1,5 @@
 ﻿---
 title: "Onboarding"
-nav_order: 20
 ---
 # Onboarding
 

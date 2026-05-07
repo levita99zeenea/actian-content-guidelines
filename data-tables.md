@@ -1,6 +1,5 @@
 ﻿---
 title: "Data tables"
-nav_order: 24
 ---
 # Data tables
 

@@ -1,6 +1,5 @@
 ﻿---
 title: "Empty and system states"
-nav_order: 9
 ---
 # Empty and system states
 
