@@ -35,8 +35,8 @@ The most commonly referenced sections. Each covers when to use a component, styl
     <div class="rule-label">Validation messages</div>
     <div class="rule-value">Validate on blur, not keystroke. Say what's wrong and how to fix it - no "Invalid"</div>
   </a>
-  <a href="data-tables" class="rule-card">
-    <div class="rule-label">Data tables</div>
+  <a href="table" class="rule-card">
+    <div class="rule-label">Table</div>
     <div class="rule-value">Column header format, empty cell conventions, status vocabulary, and bulk action labels</div>
   </a>
   <a href="modal" class="rule-card">
@@ -91,7 +91,7 @@ Run through this before any UI copy review:
   <a href="whats-new">What's new</a>
   <a href="alerts">Alerts</a>
   <a href="combo-box">Combo box</a>
-  <a href="data-tables">Data tables</a>
+  <a href="table">Table</a>
   <a href="grid-and-spacing">Grid and spacing</a>
   <a href="icons">Icons</a>
   <a href="inline-toast">Inline toast</a>
@@ -102,7 +102,6 @@ Run through this before any UI copy review:
   <a href="related-content-panels">Related content panels</a>
   <a href="stepper">Stepper</a>
   <a href="toggle-control">Toggle control</a>
-  <a href="tables">Tables</a>
   <a href="uploads">Uploads</a>
   <a href="validation-messages">Validation messages</a>
   <a href="wizards">Wizards</a>

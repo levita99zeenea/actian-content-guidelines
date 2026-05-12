@@ -35,7 +35,7 @@ Use the sidebar to navigate, or jump directly to a section below.
   <a href="whats-new">What's new</a>
   <a href="alerts">Alerts</a>
   <a href="combo-box">Combo box</a>
-  <a href="data-tables">Data tables</a>
+  <a href="table">Table</a>
   <a href="grid-and-spacing">Grid and spacing</a>
   <a href="icons">Icons</a>
   <a href="inline-toast">Inline toast</a>
@@ -46,7 +46,6 @@ Use the sidebar to navigate, or jump directly to a section below.
   <a href="related-content-panels">Related content panels</a>
   <a href="stepper">Stepper</a>
   <a href="toggle-control">Toggle control</a>
-  <a href="tables">Tables</a>
   <a href="uploads">Uploads</a>
   <a href="validation-messages">Validation messages</a>
   <a href="wizards">Wizards</a>
