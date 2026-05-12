@@ -1,6 +1,6 @@
-﻿---
+---
 title: "Text input"
-nav_order: 33
+nav_order: 36
 ---
 # Text input
 
