@@ -1,0 +1,107 @@
+name: Sync content guidelines to knowledge repo
+
+# Runs nightly at 3 AM UTC, and on demand via the "Run workflow" button
+# in the Actions tab (https://github.com/levita99zeenea/actian-content-guidelines/actions).
+#
+# Prerequisites (one-time setup):
+#   1. Vincent adds levita99zeenea as a collaborator (Write) on volivarii/actian-ds-knowledge
+#   2. Create a GitHub fine-grained PAT with contents:write + pull_requests:write
+#      on volivarii/actian-ds-knowledge
+#   3. Store it as secret KNOWLEDGE_REPO_PAT in this repo's Settings → Secrets → Actions
+
+on:
+  schedule:
+    - cron: '0 3 * * *'   # 3 AM UTC nightly
+  workflow_dispatch:       # manual — "Run workflow" button in Actions tab
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out content-guidelines (source)
+        uses: actions/checkout@v4
+        with:
+          path: source
+
+      - name: Check out actian-ds-knowledge (target)
+        uses: actions/checkout@v4
+        with:
+          repository: volivarii/actian-ds-knowledge
+          token: ${{ secrets.KNOWLEDGE_REPO_PAT }}
+          path: knowledge
+
+      - name: Copy content .md files to knowledge/content/src/
+        run: |
+          # Copy all .md files from source root to knowledge/content/src/
+          # Excludes: README.md (repo-level docs, not content guidelines)
+          find source -maxdepth 1 -name "*.md" ! -name "README.md" \
+            -exec cp -v {} knowledge/content/src/ \;
+
+      - name: Check for changes
+        id: diff
+        run: |
+          cd knowledge
+          if git diff --quiet content/src/; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No content changes detected — nothing to sync."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "Changes detected:"
+            git diff --stat content/src/
+          fi
+
+      - name: Skip — no changes
+        if: steps.diff.outputs.changed == 'false'
+        run: echo "✓ Knowledge repo already up to date."
+
+      - name: Create branch and open PR
+        if: steps.diff.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.KNOWLEDGE_REPO_PAT }}
+        run: |
+          cd knowledge
+
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          DATE=$(date -u +%Y-%m-%d)
+          BRANCH="sync/content-${DATE}"
+
+          # Remove stale same-day branch if it exists (safe for re-runs)
+          git push origin --delete "${BRANCH}" 2>/dev/null || true
+          git checkout -b "${BRANCH}"
+
+          git add content/src/
+          git commit -m "sync: content guidelines ${DATE}
+
+          Auto-synced from levita99zeenea/actian-content-guidelines
+          Trigger: ${{ github.event_name }}
+          Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+
+          git push origin "${BRANCH}"
+
+          # Build PR body in a temp file to avoid shell quoting issues
+          cat > /tmp/pr-body.md << EOF
+          Auto-synced from [\`levita99zeenea/actian-content-guidelines\`](https://github.com/levita99zeenea/actian-content-guidelines).
+
+          **Changed files** — \`content/src/*.md\`
+
+          | Field | Value |
+          |---|---|
+          | Trigger | \`${{ github.event_name }}\` |
+          | Date | ${DATE} |
+          | Source run | [${{ github.run_id }}](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}) |
+
+          > Review and merge when ready. The \`derive:content\` script runs automatically on merge to regenerate \`content/dist/content.md\`.
+          EOF
+
+          gh pr create \
+            --repo volivarii/actian-ds-knowledge \
+            --title "sync: content guidelines ${DATE}" \
+            --body-file /tmp/pr-body.md \
+            --base main \
+            --head "${BRANCH}"
+
+          echo "✓ PR opened on volivarii/actian-ds-knowledge"
