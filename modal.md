@@ -18,7 +18,7 @@ Modals interrupt the current flow to require the user's attention for a confirma
 
 - Modal title should match the label of the button or link that triggered it.
 - Keep body copy short and actionable. One to two sentences.
-- Use a primary and secondary button pair. Align with the [button terminology guidelines](buttons).
+- Use a primary and secondary button pair. Align with the [button terminology guidelines](button).
 - Do not nest modals.
 
 ## Do / Don't

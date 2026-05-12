@@ -1,8 +1,8 @@
 ﻿---
-title: "Alerts"
+title: "Alert / banner"
 nav_order: 3
 ---
-# Alerts
+# Alert / banner
 
 Alerts communicate important information that requires the user's attention. They can be informational, confirmatory, cautionary, or indicate an error. Unlike toasts, alerts are persistent and remain visible until dismissed or resolved.
 

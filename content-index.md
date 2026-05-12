@@ -14,12 +14,12 @@ Use the sidebar to navigate, or jump directly to a section below.
 
 <div class="actian-section-list">
   <a href="global-guidelines">Global guidelines</a>
-  <a href="buttons">Buttons</a>
-  <a href="links">Links</a>
-  <a href="checkboxes">Checkboxes</a>
+  <a href="button">Buttons</a>
+  <a href="link">Links</a>
+  <a href="checkbox">Checkboxes</a>
   <a href="dropdown-select">Dropdown / Select</a>
   <a href="filters">Filters</a>
-  <a href="cards">Cards</a>
+  <a href="card">Cards</a>
   <a href="empty-and-system-states">Empty and system states</a>
   <a href="forms">Forms</a>
   <a href="sticky-footer">Sticky footer</a>
@@ -33,7 +33,7 @@ Use the sidebar to navigate, or jump directly to a section below.
   <a href="dialogs-and-confirmations">Dialogs and confirmations</a>
   <a href="onboarding">Onboarding</a>
   <a href="whats-new">What's new</a>
-  <a href="alerts">Alerts</a>
+  <a href="alert-banner">Alert / banner</a>
   <a href="combo-box">Combo box</a>
   <a href="table">Table</a>
   <a href="grid-and-spacing">Grid and spacing</a>
