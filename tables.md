@@ -4,7 +4,7 @@ nav_order: 32
 ---
 # Tables
 
-Tables display structured data in a grid of rows and columns. This section covers general table content guidelines. For data table-specific guidelines including sorting, filtering, and bulk actions, see [23. Data tables](23-data-tables.md).
+Tables display structured data in a grid of rows and columns. This section covers general table content guidelines. For data table-specific guidelines including sorting, filtering, and bulk actions, see [Data tables](data-tables.md).
 
 ---
 

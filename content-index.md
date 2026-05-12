@@ -45,7 +45,7 @@ Use the sidebar to navigate, or jump directly to a section below.
   <a href="popover">Popover</a>
   <a href="related-content-panels">Related content panels</a>
   <a href="stepper">Stepper</a>
-  <a href="switch">Switch</a>
+  <a href="toggle-control">Toggle control</a>
   <a href="tables">Tables</a>
   <a href="uploads">Uploads</a>
   <a href="validation-messages">Validation messages</a>
