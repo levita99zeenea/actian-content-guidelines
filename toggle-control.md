@@ -1,6 +1,6 @@
 ---
 title: "Toggle control"
-nav_order: 31
+nav_order: 34
 ---
 # Toggle control
 
