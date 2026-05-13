@@ -1,6 +1,6 @@
 ---
 title: "Table"
-nav_order: 44
+nav_order: 42
 ---
 # Table
 

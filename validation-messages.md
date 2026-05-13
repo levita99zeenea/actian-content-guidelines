@@ -1,6 +1,6 @@
 ---
 title: "Validation messages"
-nav_order: 50
+nav_order: 47
 ---
 # Validation messages
 

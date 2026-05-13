@@ -1,6 +1,6 @@
 ---
 title: Home
-nav_order: 54
+nav_order: 51
 description: "UI writing standards for the Actian Data Intelligence platform"
 permalink: /
 ---
@@ -88,8 +88,7 @@ Run through this before any UI copy review:
   <a href="combo-box">Combo box</a>
   <a href="confirmation">Confirmation</a>
   <a href="dropdown-select">Dropdown / Select</a>
-  <a href="empty-state">Empty state</a>
-  <a href="error-state">Error state</a>
+  <a href="empty-and-system-states">Empty and system states</a>
   <a href="filters">Filters</a>
   <a href="forms">Forms</a>
   <a href="grid-and-spacing">Grid and spacing</a>
@@ -97,13 +96,11 @@ Run through this before any UI copy review:
   <a href="inline-toast">Inline toast</a>
   <a href="lineage-specific-ui">Lineage-specific UI</a>
   <a href="link">Links</a>
-  <a href="loading">Loading</a>
-  <a href="maintenance-state">Maintenance state</a>
+  <a href="loading-and-progress">Loading and progress</a>
   <a href="modal">Modal</a>
   <a href="multi-select">Multi-select</a>
   <a href="navigation">Navigation</a>
-  <a href="notification">Notification</a>
-  <a href="notification-toast">Notification toast</a>
+  <a href="notifications-and-messaging">Notifications and messaging</a>
   <a href="object-preview-panels">Object preview panels</a>
   <a href="onboarding">Onboarding</a>
   <a href="popover">Popover</a>
@@ -115,7 +112,6 @@ Run through this before any UI copy review:
   <a href="tag">Tags</a>
   <a href="text-input">Text input</a>
   <a href="toggle-control">Toggle control</a>
-  <a href="tooltip">Tooltip</a>
   <a href="uploads">Uploads</a>
   <a href="validation-messages">Validation messages</a>
   <a href="whats-new">What's new</a>

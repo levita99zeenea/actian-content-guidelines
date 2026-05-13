@@ -1,6 +1,6 @@
 ---
 title: "Sticky footer"
-nav_order: 43
+nav_order: 41
 ---
 # Sticky footer
 
