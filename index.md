@@ -1,6 +1,6 @@
 ---
 title: Home
-nav_order: 44
+nav_order: 53
 description: "UI writing standards for the Actian Data Intelligence platform"
 permalink: /
 ---
@@ -15,8 +15,8 @@ permalink: /
 The most commonly referenced sections. Each covers when to use a component, style and copy rules, behavior guidance, and Do / Don't examples.
 
 <div class="actian-quick-rules">
-  <a href="global-guidelines" class="rule-card">
-    <div class="rule-label">Global guidelines</div>
+  <a href="voice-and-tone" class="rule-card">
+    <div class="rule-label">Voice and tone</div>
     <div class="rule-value">Voice, tone, active voice rules, and the full list of words and phrases to avoid</div>
   </a>
   <a href="button" class="rule-card">
@@ -69,7 +69,16 @@ Run through this before any UI copy review:
 ## All sections
 
 <div class="actian-section-list">
-  <a href="global-guidelines">Global guidelines</a>
+  <a href="voice-and-tone">Voice and tone</a>
+  <a href="writing-style">Writing style</a>
+  <a href="capitalization">Capitalization</a>
+  <a href="words-to-avoid">Words to avoid</a>
+  <a href="punctuation">Punctuation</a>
+  <a href="numerical-formatting">Numerical formatting</a>
+  <a href="prepositions">Prepositions</a>
+  <a href="acronyms">Acronyms</a>
+  <a href="plurals">Plurals</a>
+  <a href="abbreviations-and-articles">Abbreviations and articles</a>
   <a href="alert-banner">Alert / banner</a>
   <a href="badge">Badges</a>
   <a href="button">Buttons</a>

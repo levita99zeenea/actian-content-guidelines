@@ -1,6 +1,6 @@
 ---
 title: "Grid and spacing"
-nav_order: 15
+nav_order: 24
 ---
 # Grid and spacing
 

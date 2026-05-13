@@ -1,6 +1,6 @@
 ---
 title: "Inline toast"
-nav_order: 17
+nav_order: 26
 ---
 # Inline toast
 

@@ -1,6 +1,6 @@
 ---
 title: "Badges"
-nav_order: 4
+nav_order: 13
 ---
 # Badges
 
