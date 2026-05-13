@@ -1,6 +1,6 @@
 ---
 title: "Related content panels"
-nav_order: 39
+nav_order: 40
 ---
 # Related content panels
 

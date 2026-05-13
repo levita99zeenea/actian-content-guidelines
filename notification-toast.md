@@ -1,6 +1,6 @@
 ---
 title: "Notification toast"
-nav_order: 35
+nav_order: 36
 ---
 # Notification toast
 

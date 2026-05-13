@@ -1,6 +1,6 @@
 ---
 title: "Object preview panels"
-nav_order: 36
+nav_order: 37
 ---
 # Object preview panels
 

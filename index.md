@@ -1,6 +1,6 @@
 ---
 title: Home
-nav_order: 53
+nav_order: 54
 description: "UI writing standards for the Actian Data Intelligence platform"
 permalink: /
 ---
@@ -69,6 +69,7 @@ Run through this before any UI copy review:
 ## All sections
 
 <div class="actian-section-list">
+  <a href="global-guidelines">Global guidelines</a>
   <a href="voice-and-tone">Voice and tone</a>
   <a href="writing-style">Writing style</a>
   <a href="capitalization">Capitalization</a>

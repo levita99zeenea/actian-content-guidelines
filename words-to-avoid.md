@@ -1,6 +1,6 @@
 ---
 title: "Words to avoid"
-nav_order: 5
+nav_order: 6
 ---
 # Words to avoid
 

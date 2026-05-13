@@ -1,6 +1,6 @@
 ---
 title: "Empty state"
-nav_order: 20
+nav_order: 21
 ---
 # Empty state
 
